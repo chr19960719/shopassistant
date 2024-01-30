@@ -9,3 +9,7 @@ select { border: none; outline: none; }
     width: 96px;
     height: 96px;
 }
+.rating-user-img {
+  border-radius: 16px;
+  height: 92px !important;
+}
