@@ -2068,7 +2068,8 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 	}
 	#Top_bar.is-sticky #logo img.logo-sticky {
 		display: inline;
-		max-height: 35px
+		max-height: 70px;
+		margin-top: -6px;
 	}
 	.logo-sticky-width-auto #Top_bar.is-sticky #logo img.logo-sticky {
 		width: auto
@@ -3348,7 +3349,8 @@ body.mobile-side-slide {
 	border-color: rgba(0, 0, 0, .05)
 }
 #Top_bar #logo img.logo-sticky, #Top_bar #logo img.logo-mobile, #Top_bar #logo img.logo-mobile-sticky {
-	display: none
+	display: none;
+	margin-top: -32px;
 }
 /* Section --------------------------------------------------------------------------- */
 
@@ -3496,10 +3498,12 @@ body.mobile-side-slide {
 }
 @media only screen and (max-width: 767px) {
 	#Top_bar #logo img.logo-main {
-		display: none
+		display: none;
+		margin-top: -32px;
 	}
 	#Top_bar #logo img.logo-mobile {
-		display: inline-block
+		display: inline-block;
+		margin-top: -32px;
 	}
 	.logo-overflow #Top_bar .logo {
 		height: auto!important

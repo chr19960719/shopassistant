@@ -13,3 +13,9 @@ select { border: none; outline: none; }
   border-radius: 16px;
   height: 92px !important;
 }
+.logo-main {
+  margin-top: -32px;
+}
+.is-sticky .top_bar_right_wrapper {
+  height: 60px;
+}
