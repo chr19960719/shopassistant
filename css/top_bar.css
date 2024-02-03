@@ -19,3 +19,13 @@ select { border: none; outline: none; }
 .is-sticky .top_bar_right_wrapper {
   height: 60px;
 }
+.bottom-text {
+  font-size: 24px;
+  line-height: 36px;
+}
+.cutting-line {
+  margin: 32px 0;
+}
+.bottom-h2 {
+  font-family: '';
+}
