@@ -605,13 +605,13 @@ body, button, span.date_label, .timeline_items li h3 span, input[type="submit"],
 	font-family: "Inter", Helvetica, Arial, sans-serif
 }
 #Subheader .title {
-	font-family: "Zen Kaku Gothic New", Helvetica, Arial, sans-serif
+	font-family: "", Helvetica, Arial, sans-serif
 }
 h1, h2, h3, h4, .text-logo #logo {
-	font-family: "Zen Kaku Gothic New", Helvetica, Arial, sans-serif
+	font-family: "", Helvetica, Arial, sans-serif
 }
 h5, h6 {
-	font-family: "Zen Kaku Gothic New", Helvetica, Arial, sans-serif
+	font-family: "", Helvetica, Arial, sans-serif
 }
 blockquote {
 	font-family: "Inter", Helvetica, Arial, sans-serif
@@ -1113,7 +1113,7 @@ h6 {
 	display: none!important
 }
 .button-custom .button, .button-custom .action_button, .button-custom .footer_button, .button-custom button, .button-custom input[type="button"], .button-custom input[type="reset"], .button-custom input[type="submit"], .button-custom .woocommerce #respond input#submit, .button-custom .woocommerce a.button, .button-custom .woocommerce button.button, .button-custom .woocommerce input.button {
-	font-family: Zen Kaku Gothic New;
+	font-family: "";
 	font-size: 16px;
 	line-height: 16px;
 	font-weight: 700;
