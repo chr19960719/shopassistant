@@ -69,6 +69,12 @@ select {
 .line-hight-168 {
   line-height: 168px;
 }
+.line-hight-110 {
+  line-height: 110px;
+}
+.font-size-36 {
+  font-size: 36px;
+}
 
 .about-wrapper {
   font-family: '';
@@ -87,4 +93,14 @@ select {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.culture .themecolor {
+  font-size: 60px;
+  /* margin-left: -106px; */
+  line-height: 98px;
+}
+.culture-describe {
+  font-size: 46px;
+  line-height: 66px;
 }
