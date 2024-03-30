@@ -1,11 +1,15 @@
 const langObj = {
     CN: {
-        kua: "跨境无界",
-        wuxian: "商机无限",
+        home_index_first: "跨境无界",
+        home_index_second: "商机无限",
+        home_index_third: "世界触手可及",
+        home_index_fourth: "我们拥有丰富的产品线、强大的供应链能力和完善的物流体系，致力于打造高效、便捷的全球电子商务体验，助力您开拓无限商机。"
     },
     EN: {
-        kua: "Cross-border business",
-        wuxian: "Business unlimited",
+        home_index_first: "Cross-border unbounded",
+        home_index_second: "Opportunity unlimited",
+        home_index_third: "World reachable",
+        home_index_fourth: "We have rich product lines, strong supply chain capabilities, and comprehensive logistics systems to help you open up unlimited opportunities."
     },
 };
 
