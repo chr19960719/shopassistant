@@ -3141,7 +3141,8 @@ body.mobile-side-slide {
 	line-height: 34px;
 }
 #Side_slide .extras {
-	padding: 0 20px
+	padding: 0 20px;
+	display: none;
 }
 #Side_slide .extras .action_button {
 	width: 100%;

@@ -68,8 +68,8 @@ select {
 }
 .home-decorate-two {
   position: absolute;
-  left: 59px;
-  bottom: 127px;
+  left: 2%;
+  bottom: 26%;
 }
 
 .product-icon {
@@ -164,6 +164,16 @@ select {
   font-size: 60px;
   /* margin-left: -106px; */
   line-height: 98px;
+}
+@media only screen and (max-width: 1430px) {
+  .culture .themecolor {
+    font-size: 48px;
+    line-height: 88px;
+  }
+  .culture .top-title {
+    font-size: 50px;
+    line-height: 88px;
+  }
 }
 
 .culture-describe {
@@ -269,11 +279,16 @@ select {
   text-transform: uppercase;
 }
 
+.product-sort .container {
+  width: 100%;
+  max-width: 100%;
+  padding: 0px 15%;
+}
 .product-sort .sort-item {
   text-align: center;
   color: #000;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 16px;
 }
 .product-sort .sort-item.active {
   color: #409eff;
@@ -311,14 +326,47 @@ select {
 }
 .product-img {
   cursor: auto;
+  padding: 0px 30px;
 }
-.product-img .product-img-image_wrapper{
-  padding: 16px;
+.product-img .product-img-image_wrapper {
+  padding: 30px;
   border: 1px solid #e4e7ed;
+  margin-top: 30px;
 }
 .product-img .title {
   color: #000;
   font-size: 16px;
+}
+.product-img .desc {
+  /* 超出显示省略号 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.about-wrapper .google_font {
+  font-family: "", Arial, Tahoma, sans-serif;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.about-wrapper .team-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-wrapper .team-img {
+  width: 370px;
+  height: 236px;
+}
+.about-wrapper .team-img img {
+  display: block;
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover;
 }
 
 .CN_home_index {
@@ -331,7 +379,8 @@ select {
   padding-top: 120px;
 }
 .EN_home_index p[lang="home_index_second"] {
-  font-size: 34px;
+  font-size: 24px;
+  font-weight: 400;
 }
 .EN_home_index .home-title {
   font-size: 44px;
@@ -342,12 +391,42 @@ select {
 .EN_home_third p[lang="home_third_ninth"] {
   margin-bottom: 4rem;
 }
+.EN_home_third p[type="justify"] {
+  text-align: center;
+}
+.CN .mobile_align_center {
+  padding: 40px 40px 25px;
+  border: 1px solid #e2e2e2;
+  border-radius: 32px;
+}
 .EN_home_fourth p[lang="home_fourth_fourth"] {
   margin-bottom: 2.6rem;
 }
 .EN_msg p[lang="msg_first"] {
-  font-size: 32px;
+  font-size: 44px;
+  margin-bottom: 0;
 }
 .EN_msg p[lang="msg_second"] {
-  font-size: 32px;
+  display: none;
+  margin-bottom: 0;
+}
+
+.EN_about p[lang="about_first"] {
+  margin-top: 30%;
+  font-size: 88px;
+  font-weight: 800;
+}
+.EN_about *[lang="about_third"] {
+  font-size: 52px;
+}
+.CN_about *[lang="about_seventeenth"] {
+  font-size: 46px;
+  line-height: 66px;
+}
+.EN_about .team-desc {
+  height: 310px;
+  padding: 0px 18px;
+}
+.CN_about .team-desc {
+  height: 232px;
 }
