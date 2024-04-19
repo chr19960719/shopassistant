@@ -36,7 +36,7 @@
 
 <body
   class="home page template-slider content-brightness-light input-brightness-light style-simple button-custom layout-full-width no-shadows header-classic sticky-header sticky-tb-color ab-hide subheader-both-center menu-link-color menuo-no-borders mobile-tb-center mobile-side-slide mobile-mini-mr-ll mobile-sticky mobile-header-mini mobile-icon-user-ss mobile-icon-wishlist-ss mobile-icon-search-ss mobile-icon-wpml-ss mobile-icon-action-ss be-page-8">
-  <div id="Wrapper">
+  <div id="Wrapper" class="index-wrapper">
     <div id="Header_wrapper">
       <header id="Header">
         <div id="Top_bar">
@@ -105,7 +105,7 @@
               <div class="placeholder">&nbsp;</div>
             </div>
             <div
-              class="col-md-5"
+              class="col-md-5 home-index"
               data-col="one-third"
               lang-style="home_index"
             >
@@ -119,9 +119,7 @@
                 <p class="home-title-themecolor" lang="home_index_third"></p>
                 <p class="home-title-describe" lang="home_index_fourth"></p>
                 <br/>
-                <a href="#" class="home-title-button" lang="home_index_button">
-                  
-                </a>
+                <a href="#" class="home-title-button" lang="home_index_button"></a>
               </div>
             </div>
             <div class="col-md-6" data-col="one-second">
@@ -928,7 +926,7 @@
   <script src="plugins/rs-plugin-6.custom/js/revolution.tools.min.js"></script>
   <script src="plugins/rs-plugin-6.custom/js/rs6.min.js"></script>
   <script src="js/index.js"></script>
-  <script type="application/javascript" src="https://api.ip.sb/geoip?callback=getip"></script>
+  <script type="application/javascript" src="https://api.ip.sb/geoip?callback=getip" onerror="getip()"></script>
   <script type="text/javascript">
     var revapi1, tpj;
 

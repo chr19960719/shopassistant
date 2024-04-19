@@ -14,10 +14,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <!-- Mobile Specific Metas -->
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <!-- Favicons -->
     <link rel="shortcut icon" href="images/favicon.ico" />
     <!-- FONTS -->
@@ -58,74 +55,67 @@
                       title="ShopAssistant - Betheme"
                       data-height="60"
                       data-padding="15"
-                      ><img
+                    >
+                      <img
                         class="logo-main scale-with-grid svg"
                         src="images/shopassistant.svg"
                         data-retina=""
                         data-height=""
                         alt="shopassistant"
-                        width="209" /><img
+                        width="209"
+                      />
+                      <img
                         class="logo-sticky scale-with-grid svg"
                         src="images/shopassistant.svg"
                         data-retina=""
                         data-height=""
                         alt="shopassistant"
-                        width="209" /><img
+                        width="209"
+                      />
+                      <img
                         class="logo-mobile scale-with-grid svg"
                         src="images/shopassistant.svg"
                         data-retina=""
                         data-height=""
                         alt="shopassistant"
-                        width="209" /><img
+                        width="209"
+                      />
+                      <img
                         class="logo-mobile-sticky scale-with-grid svg"
                         src="images/shopassistant.svg"
                         data-retina=""
                         data-height=""
                         alt="shopassistant"
                         width="209"
-                    /></a>
+                      />
+                    </a>
                   </div>
                   <div class="menu_wrapper">
                     <nav id="menu">
                       <ul id="menu-main-menu" class="menu menu-main">
                         <li>
-                          <a href="../../index-shopassistant.html"
-                            ><span lang="menu_first"></span
-                          ></a>
+                          <a href="../../index-shopassistant.html"><span lang="menu_first"></span></a>
                         </li>
                         <li>
-                          <a href="about.html"
-                            ><span lang="menu_second"></span
-                          ></a>
+                          <a href="about.html"><span lang="menu_second"></span></a>
                         </li>
                         <li>
-                          <a href="culture.html"
-                            ><span lang="menu_third"></span
-                          ></a>
+                          <a href="culture.html"><span lang="menu_third"></span></a>
                         </li>
                         <li class="current-menu-item">
-                          <a href="team.html"
-                            ><span lang="menu_fifth"></span
-                          ></a>
+                          <a href="team.html"><span lang="menu_fifth"></span></a>
                         </li>
                         <li>
-                          <a href="product.html"
-                            ><span lang="menu_fourth"></span
-                          ></a>
+                          <a href="product.html"><span lang="menu_fourth"></span></a>
                         </li>
                         <li>
-                          <a href="contact.html"
-                            ><span lang="menu_sixth"></span
-                          ></a>
+                          <a href="contact.html"><span lang="menu_sixth"></span></a>
                         </li>
                       </ul>
                     </nav>
-                    <a
-                      class="responsive-menu-toggle"
-                      href="#"
-                      aria-label="Mobile menu"
-                      ><i class="icon-menu-fine" aria-hidden="true"></i
-                    ></a>
+                    <a class="responsive-menu-toggle" href="#" aria-label="Mobile menu">
+                      <i class="icon-menu-fine" aria-hidden="true"></i>
+                    </a>
                   </div>
                 </div>
                 <div class="top_bar_right">
@@ -155,10 +145,7 @@
         >
           <div
             class="section-decoration bottom"
-            style="
-              background-image: url(images/shopassistant-section-pic5.webp);
-              height: 67px;
-            "
+            style="background-image: url(images/shopassistant-section-pic5.webp); height: 67px"
           ></div>
         </div>
         <div class="section product-sort">
@@ -171,41 +158,26 @@
                   'transform': `translateX(${tabActiveBarTranslateX}px)`
                 }"
                 ></div>
-                <div
-                  :class="`col-md-3 sort-item ${avtiveType === 1 ? 'active' : ''}`"
-                  @click="changeType(1)"
-                >
+                <div :class="`col-md-3 sort-item ${avtiveType === 1 ? 'active' : ''}`" @click="changeType(1)">
                   <img class="product-icon" src="images/furniture.png" />
                   <span lang="home_third_third"></span>
                 </div>
-                <div
-                  :class="`col-md-3 sort-item ${avtiveType === 2 ? 'active' : ''}`"
-                  @click="changeType(2)"
-                >
+                <div :class="`col-md-3 sort-item ${avtiveType === 2 ? 'active' : ''}`" @click="changeType(2)">
                   <img class="product-icon" src="images/outdoors.jpg" />
                   <span lang="home_third_fourth"></span>
                 </div>
-                <div
-                  :class="`col-md-3 sort-item ${avtiveType === 3 ? 'active' : ''}`"
-                  @click="changeType(3)"
-                >
+                <div :class="`col-md-3 sort-item ${avtiveType === 3 ? 'active' : ''}`" @click="changeType(3)">
                   <img class="product-icon" src="images/children-toy.jpg" />
                   <span lang="home_third_sixth"></span>
                 </div>
-                <div
-                  :class="`col-md-3 sort-item ${avtiveType === 4 ? 'active' : ''}`"
-                  @click="changeType(4)"
-                >
+                <div :class="`col-md-3 sort-item ${avtiveType === 4 ? 'active' : ''}`" @click="changeType(4)">
                   <img class="product-icon" src="images/pet-toy.jpg" />
                   <span lang="home_third_eighth"></span>
                 </div>
               </div>
               <div class="col-12">
                 <div class="row blog_s">
-                  <div
-                    class="post col-md-3 product-img"
-                    v-for="item in productList"
-                  >
+                  <div class="post col-md-3 product-img" v-for="item in productList">
                     <div class="item_wrapper">
                       <div class="image_frame">
                         <div
@@ -214,14 +186,11 @@
                               'height': `${tabRefWidth-60}px`
                             }"
                         >
-                          <img
-                            :src="item.img"
-                            style="width: 100%; height: 100%; object-fit: cover"
-                          />
+                          <img :src="item.img" style="width: 100%; height: 100%; object-fit: contain" />
                         </div>
                       </div>
                       <div class="title">{{item.title}}</div>
-                      <div class="desc">{{item.desc}}</div>
+                      <div class="desc" :title="item.desc">{{item.desc}}</div>
                     </div>
                   </div>
                 </div>
@@ -231,11 +200,7 @@
         </div>
         <div
           class="section mcb-section"
-          style="
-            padding-top: 100px;
-            padding-bottom: 60px;
-            background-color: #ffcf00;
-          "
+          style="padding-top: 100px; padding-bottom: 60px; background-color: #ffcf00; margin-top: 120px"
           data-parallax="3d"
           lang-style="msg"
         >
@@ -247,10 +212,7 @@
           />
           <div
             class="section-decoration top"
-            style="
-              background-image: url(images/shopassistant-section-pic1.webp);
-              height: 35px;
-            "
+            style="background-image: url(images/shopassistant-section-pic1.webp); height: 35px"
           ></div>
           <div class="container">
             <div class="row">
@@ -258,19 +220,13 @@
                 <div class="row">
                   <div class="col-md-12">
                     <div class="column_attr clearfix mobile_align_center">
-                      <img
-                        class="scale-with-grid"
-                        src="images/shopassistant-sep3.svg"
-                      />
+                      <img class="scale-with-grid" src="images/shopassistant-sep3.svg" />
                       <hr class="no_line" style="margin: 0 auto 10px auto" />
                       <h2 class="bottom-h2">
                         <p lang="msg_first"></p>
                         <p lang="msg_second"></p>
                       </h2>
-                      <img
-                        class="scale-with-grid cutting-line"
-                        src="images/shopassistant-sep6.svg"
-                      />
+                      <img class="scale-with-grid cutting-line" src="images/shopassistant-sep6.svg" />
                       <hr class="no_line" style="margin: 0 auto 10px auto" />
                       <p class="bottom-text">
                         <span style="color: #12263a">
@@ -286,11 +242,7 @@
               <div
                 class="col-md-6"
                 data-col="one-second"
-                style="
-                  padding: 50px 70px;
-                  background-color: #fff;
-                  border-radius: 32px;
-                "
+                style="padding: 50px 70px; background-color: #fff; border-radius: 32px"
               >
                 <h4 lang="msg_sixth"></h4>
                 <div id="contactWrapper">
@@ -328,16 +280,17 @@
             </div>
             <div class="col-md-6">
               <figure class="wp-block-image size-full">
-                <img
-                  src="images/shopassistant-footer-logo.svg"
-                  class="wp-image-206"
-                />
+                <img src="images/shopassistant-footer-logo.svg" class="wp-image-206" />
               </figure>
               <p>
-                Envato <br />
-                Level 13, <br />
-                2 Elizabeth, <br />
-                Victoria 3000, <br />
+                Envato
+                <br />
+                Level 13,
+                <br />
+                2 Elizabeth,
+                <br />
+                Victoria 3000,
+                <br />
                 Australia
               </p>
             </div>
@@ -345,32 +298,19 @@
               <h6>Navigation</h6>
               <ul>
                 <li>
-                  <a href="about.html" data-type="URL" data-id="about.html"
-                    >Product</a
-                  >
+                  <a href="about.html" data-type="URL" data-id="about.html">Product</a>
                 </li>
                 <li>
-                  <a
-                    href="culture.html"
-                    data-type="URL"
-                    data-id="culture.html"
-                    >Security</a
-                  >
+                  <a href="culture.html" data-type="URL" data-id="culture.html">Security</a>
                 </li>
                 <li>
-                  <a href="product.html" data-type="URL" data-id="product.html"
-                    >Pricing</a
-                  >
+                  <a href="product.html" data-type="URL" data-id="product.html">Pricing</a>
                 </li>
                 <li>
-                  <a href="team.html" data-type="URL" data-id="team.html"
-                    >Blog</a
-                  >
+                  <a href="team.html" data-type="URL" data-id="team.html">Blog</a>
                 </li>
                 <li>
-                  <a href="contact.html" data-type="URL" data-id="contact.html"
-                    >Contact</a
-                  >
+                  <a href="contact.html" data-type="URL" data-id="contact.html">Contact</a>
                 </li>
               </ul>
             </div>
@@ -392,17 +332,10 @@
         <div class="footer_copy">
           <div class="container">
             <div class="column one">
-              <a id="back_to_top" class="footer_button" href="#"
-                ><i class="icon-up-open-big"></i
-              ></a>
+              <a id="back_to_top" class="footer_button" href="#"><i class="icon-up-open-big"></i></a>
               <div class="copyright">
                 &copy; 2021 - BeTheme. Muffin group - HTML by
-                <a
-                  target="_blank"
-                  rel="nofollow"
-                  href="https://1.envato.market/9ZxXY"
-                  >BeantownThemes</a
-                >
+                <a target="_blank" rel="nofollow" href="https://1.envato.market/9ZxXY">BeantownThemes</a>
               </div>
             </div>
           </div>
@@ -415,9 +348,7 @@
         <a href="#" class="close"><i class="icon-cancel-fine"></i></a>
       </div>
       <div class="extras">
-        <a href="contact.html" class="action_button" target="_blank"
-          >Free Consultation</a
-        >
+        <a href="contact.html" class="action_button" target="_blank">Free Consultation</a>
         <div class="extras-wrapper"></div>
       </div>
       <div class="menu_wrapper"></div>
@@ -434,9 +365,6 @@
     <script src="../../js/translate3d.js"></script>
     <script src="../../js/scripts.js"></script>
     <script src="../../js/index.js"></script>
-    <script
-      type="application/javascript"
-      src="https://api.ip.sb/geoip?callback=getip"
-    ></script>
+    <script type="application/javascript" src="https://api.ip.sb/geoip?callback=getip"></script>
   </body>
 </html>
