@@ -282,10 +282,12 @@ select {
   padding: 0px 15%;
 }
 .product-sort .sort-item {
-  text-align: center;
   color: #000;
   cursor: pointer;
   font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .product-sort .sort-item.active {
   color: #409eff;
@@ -333,6 +335,11 @@ select {
 .product-img .title {
   color: #000;
   font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 .product-img .desc {
   /* 超出显示省略号 */
@@ -404,11 +411,11 @@ select {
   margin-bottom: 0;
 }
 
-.EN_about p[lang='about_first'] {
+/* .EN_about p[lang='about_first'] {
   margin-top: 30%;
   font-size: 88px;
   font-weight: 800;
-}
+} */
 .EN_about *[lang='about_third'] {
   font-size: 52px;
 }
@@ -504,6 +511,10 @@ select {
     font-size: 48px;
     line-height: 88px;
   }
+  /* .about-wrapper .themecolor {
+    font-size: 48px;
+    line-height: 88px;
+  } */
   .index-wrapper .home-title {
     font-size: 72px;
   }

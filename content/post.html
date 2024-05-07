@@ -39,9 +39,9 @@
   </head>
 
   <body
-    class="page content-brightness-light input-brightness-light style-simple button-custom layout-full-width no-content-padding no-shadows header-classic sticky-header sticky-tb-color ab-hide subheader-both-center menu-link-color menuo-no-borders mobile-tb-center mobile-side-slide mobile-mini-mr-ll mobile-sticky mobile-header-mini mobile-icon-user-ss mobile-icon-wishlist-ss mobile-icon-search-ss mobile-icon-wpml-ss mobile-icon-action-ss be-page-90"
+    class="post-template-default single single-post single-format-standard content-brightness-light input-brightness-light style-simple button-custom layout-full-width no-content-padding single-template-builder no-shadows header-classic sticky-header sticky-tb-color ab-hide subheader-both-center menu-link-color menuo-no-borders mobile-tb-center mobile-side-slide mobile-mini-mr-ll mobile-sticky mobile-header-mini mobile-icon-user-ss mobile-icon-wishlist-ss mobile-icon-search-ss mobile-icon-wpml-ss mobile-icon-action-ss be-page-172"
   >
-    <div id="Wrapper" class="product-wrapper" lang-style="product">
+    <div id="product_list">
       <div id="Header_wrapper">
         <header id="Header">
           <div id="Top_bar">
@@ -51,42 +51,38 @@
                   <div class="logo">
                     <a
                       id="logo"
-                      href="../../index-shopassistant.html"
+                      href="index-shopassistant.html"
                       title="ShopAssistant - Betheme"
                       data-height="60"
                       data-padding="15"
                     >
                       <img
                         class="logo-main scale-with-grid svg"
-                        src="images/shopassistant.svg"
-                        data-retina=""
+                        src="images/logo3.png"
                         data-height=""
                         alt="shopassistant"
-                        width="209"
+                        width="169"
                       />
                       <img
                         class="logo-sticky scale-with-grid svg"
-                        src="images/shopassistant.svg"
-                        data-retina=""
+                        src="images/logo3.png"
                         data-height=""
                         alt="shopassistant"
-                        width="209"
+                        width="169"
                       />
                       <img
                         class="logo-mobile scale-with-grid svg"
-                        src="images/shopassistant.svg"
-                        data-retina=""
+                        src="images/logo3.png"
                         data-height=""
                         alt="shopassistant"
-                        width="209"
+                        width="169"
                       />
                       <img
                         class="logo-mobile-sticky scale-with-grid svg"
-                        src="images/shopassistant.svg"
-                        data-retina=""
+                        src="images/logo3.png"
                         data-height=""
                         alt="shopassistant"
-                        width="209"
+                        width="169"
                       />
                     </a>
                   </div>
@@ -103,10 +99,10 @@
                           <a href="culture.html"><span lang="menu_third"></span></a>
                         </li>
                         <li class="current-menu-item">
-                          <a href="product.html"><span lang="menu_fourth"></span></a>
+                          <a href="team.html"><span lang="menu_fifth"></span></a>
                         </li>
                         <li>
-                          <a href="team.html"><span lang="menu_fifth"></span></a>
+                          <a href="product.html"><span lang="menu_fourth"></span></a>
                         </li>
                         <li>
                           <a href="contact.html"><span lang="menu_sixth"></span></a>
@@ -133,181 +129,64 @@
       </div>
       <div id="Content">
         <div
-          class="section no-margin-h no-margin-v full-width bg-contain"
+          class="section mcb-section bg-cover"
           style="
-            padding-bottom: 100px;
-            background-image: url(images/product.png);
+            padding-top: 160px;
+            padding-bottom: 320px;
+            background-image: url(images/shopassistant-blog-pic4.webp);
             background-repeat: no-repeat;
-            background-position: left bottom;
+            background-position: center top;
+            height: 800px;
           "
         >
-          <div class="row">
-            <div class="col-md-1" data-col="one-sixth">
-              <div class="placeholder">&nbsp;</div>
-            </div>
-            <div class="col-md-5 product" data-col="one-third">
-              <div class="mobile_align_center">
-                <hr class="no_line" style="margin: 0 auto 10px auto" />
-                <h1 class="line-hight-168">
-                  <span lang="product_first" class="product-title"></span>
-                  <p class="themecolor" lang="product_second"></p>
-                </h1>
-              </div>
-            </div>
-            <div class="col-md-6" data-col="one-second">
-              <div class="column_attr clearfix align_right mobile_align_center">
-                <img src="images/shopassistant-blog-pic1.webp" />
-              </div>
-            </div>
-          </div>
+          <div
+            class="section-decoration bottom"
+            style="background-image: url(images/shopassistant-section-pic5.webp); height: 67px"
+          ></div>
         </div>
-        <div class="section">
+        <div class="section product-sort">
           <div class="container">
             <div class="row" data-col="one">
-              <div class="blog_wrapper isotope_wrapper clearfix">
-                <div class="posts_group lm_wrapper classic hide-more">
-                  <div class="post-item isotope-item clearfix post">
-                    <div class="image_frame post-photo-wrapper scale-with-grid image">
-                      <div class="image_wrapper">
-                        <a href="post.html?type=1">
-                          <div class="mask"></div>
-                          <img
-                            width="960"
-                            height="720"
-                            src="images/shopassistant-blog-pic5-960x720.webp"
-                            class="scale-with-grid wp-post-image"
-                            loading="lazy"
-                          />
-                        </a>
-                        <div class="image_links double">
-                          <a
-                            href="images/shopassistant-blog-pic5-1200x1009.webp"
-                            class="zoom"
-                            rel="prettyphoto"
-                          >
-                            <i class="icon-search"></i>
-                          </a>
-                          <a href="post.html?type=1" class="link"><i class="icon-link"></i></a>
+              <div class="col-12 tab" ref="tabRef">
+                <div
+                  class="tab-active-bar"
+                  :style="{
+                  'transform': `translateX(${tabActiveBarTranslateX}px)`
+                }"
+                ></div>
+                <div :class="`col-md-3 sort-item ${avtiveType === 1 ? 'active' : ''}`" @click="changeType(1)">
+                  <img class="product-icon" src="images/furniture.png" />
+                  <span lang="home_third_third"></span>
+                </div>
+                <div :class="`col-md-3 sort-item ${avtiveType === 2 ? 'active' : ''}`" @click="changeType(2)">
+                  <img class="product-icon" src="images/outdoors.jpg" />
+                  <span lang="home_third_fourth"></span>
+                </div>
+                <div :class="`col-md-3 sort-item ${avtiveType === 3 ? 'active' : ''}`" @click="changeType(3)">
+                  <img class="product-icon" src="images/children-toy.jpg" />
+                  <span lang="home_third_sixth"></span>
+                </div>
+                <div :class="`col-md-3 sort-item ${avtiveType === 4 ? 'active' : ''}`" @click="changeType(4)">
+                  <img class="product-icon" src="images/pet-toy.jpg" />
+                  <span lang="home_third_eighth"></span>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="row blog_s">
+                  <div class="post col-md-3 product-img" v-for="item in productList">
+                    <div class="item_wrapper">
+                      <div class="image_frame">
+                        <div
+                          class="product-img-image_wrapper"
+                          :style="{
+                              'height': `${tabRefWidth-60}px`
+                            }"
+                        >
+                          <img :src="item.img" style="width: 100%; height: 100%; object-fit: contain" />
                         </div>
                       </div>
-                    </div>
-                    <div class="post-desc-wrapper bg- has-custom-bg">
-                      <div class="post-desc">
-                        <div class="post-title">
-                          <h4 class="entry-title">
-                            <a href="post.html?type=1" lang="product_third"></a>
-                          </h4>
-                        </div>
-                        <div class="post-excerpt" lang="product_fourth"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="post-item isotope-item clearfix post">
-                    <div class="image_frame post-photo-wrapper scale-with-grid image">
-                      <div class="image_wrapper">
-                        <a href="post.html?type=2">
-                          <div class="mask"></div>
-                          <img
-                            width="960"
-                            height="720"
-                            src="images/shopassistant-blog-pic4-960x720.webp"
-                            class="scale-with-grid wp-post-image"
-                            loading="lazy"
-                          />
-                        </a>
-                        <div class="image_links double">
-                          <a
-                            href="images/shopassistant-blog-pic5-1200x1009.webp"
-                            class="zoom"
-                            rel="prettyphoto"
-                          >
-                            <i class="icon-search"></i>
-                          </a>
-                          <a href="post.html?type=2" class="link"><i class="icon-link"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="post-desc-wrapper bg- has-custom-bg">
-                      <div class="post-desc">
-                        <div class="post-title">
-                          <h4 class="entry-title">
-                            <a href="post.html?type=2" lang="product_fifth"></a>
-                          </h4>
-                        </div>
-                        <div class="post-excerpt" lang="product_sixth"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="post-item isotope-item clearfix post">
-                    <div class="image_frame post-photo-wrapper scale-with-grid image">
-                      <div class="image_wrapper">
-                        <a href="post.html">
-                          <div class="mask"></div>
-                          <img
-                            width="960"
-                            height="720"
-                            src="images/shopassistant-blog-pic3-960x720.webp"
-                            class="scale-with-grid wp-post-image"
-                            loading="lazy"
-                          />
-                        </a>
-                        <div class="image_links double">
-                          <a
-                            href="images/shopassistant-blog-pic5-1200x1009.webp"
-                            class="zoom"
-                            rel="prettyphoto"
-                          >
-                            <i class="icon-search"></i>
-                          </a>
-                          <a href="post.html" class="link"><i class="icon-link"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="post-desc-wrapper bg- has-custom-bg">
-                      <div class="post-desc">
-                        <div class="post-title">
-                          <h4 class="entry-title">
-                            <a href="post.html" lang="product_seventh"></a>
-                          </h4>
-                        </div>
-                        <div class="post-excerpt" lang="product_eighth"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="post-item isotope-item clearfix post">
-                    <div class="image_frame post-photo-wrapper scale-with-grid image">
-                      <div class="image_wrapper">
-                        <a href="post.html">
-                          <div class="mask"></div>
-                          <img
-                            width="960"
-                            height="720"
-                            src="images/shopassistant-blog-pic2-960x720.webp"
-                            class="scale-with-grid wp-post-image"
-                            loading="lazy"
-                          />
-                        </a>
-                        <div class="image_links double">
-                          <a
-                            href="images/shopassistant-blog-pic5-1200x1009.webp"
-                            class="zoom"
-                            rel="prettyphoto"
-                          >
-                            <i class="icon-search"></i>
-                          </a>
-                          <a href="post.html" class="link"><i class="icon-link"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="post-desc-wrapper bg- has-custom-bg">
-                      <div class="post-desc">
-                        <div class="post-title">
-                          <h4 class="entry-title">
-                            <a href="post.html" lang="product_ninth"></a>
-                          </h4>
-                        </div>
-                        <div class="post-excerpt" lang="product_tenth"></div>
-                      </div>
+                      <div class="title">{{item.title}}</div>
+                      <div class="desc" :title="item.desc">{{item.desc}}</div>
                     </div>
                   </div>
                 </div>
@@ -317,7 +196,7 @@
         </div>
         <div
           class="section mcb-section"
-          style="padding-top: 100px; padding-bottom: 60px; background-color: #ffcf00"
+          style="padding-top: 100px; padding-bottom: 60px; background-color: #ffcf00; margin-top: 120px"
           data-parallax="3d"
           lang-style="msg"
         >
@@ -380,9 +259,7 @@
                       <div class="column one-second">
                         <span lang="msg_tenth"></span>
                       </div>
-                      <div class="column one-second">
-                        <span lang="msg_eleventh"></span>
-                      </div>
+                      <div class="column one-second"><span lang="msg_eleventh"></span></div>
                     </form>
                   </div>
                 </div>
@@ -473,6 +350,8 @@
       <div class="menu_wrapper"></div>
     </div>
     <!-- JS -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="../../js/product-vue.js"></script>
     <script src="../../js/jquery-3.6.0.min.js"></script>
     <script src="../../js/jquery-migrate-3.3.2.js"></script>
     <script src="../../js/mfn.menu.js"></script>

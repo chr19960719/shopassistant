@@ -65,9 +65,9 @@ const langObj = {
         about_fifth:
             '长期以来，益铭秉持团结、创新、诚信、卓越的核心价值观，不断进行内部革新，凭借产品、服务、海外仓、自有品牌等方面优势，拥有了成熟的生产、仓储、营销、物流及售后体系',
         about_sixth: '益铭正在不断加快和加强海内外市场的布局，致力于让我们的产品走进每个家庭，让生活变得更便捷!',
-        about_seventh: '员工数量',
-        about_eighth: '海外子公司',
-        about_ninth: '海外仓',
+        about_seventh: '海外子公司',
+        about_eighth: '自有仓库',
+        about_ninth: '在职员工',
         about_tenth: '产品数量',
         about_eleventh: '覆盖多国',
         about_twelveth:
@@ -179,19 +179,20 @@ const langObj = {
         home_fifth_fourth: 'Guangdong, China',
         home_fifth_fifth: 'Singapore',
         home_fifth_sixth: 'France',
-        about_first: 'About Us',
-        about_third: 'Our Company',
+        about_first: 'Welcome to',
+        about_second: 'Our Company',
+        about_third: 'Introduction',
         about_fourth:
             "<span style='font-weight:700;font-size: 24px;color: #12263a;'>Ymin Commercial & Trading Co.,Ltd </span> was founded in 2019. It is a foreign trade and global e-commerce enterprise that specializes in home furnishing, outdoor, sports, toys, pet supplies and other categories.",
         about_fifth:
             'Ymin has adhered to the core values of unity, innovation, integrity and excellence all the time,  and has continuously carried out internal innovation.  With the advantages in products, services, overseas warehouses, and private brands, we have got mature production, warehousing, marketing, logistics and after-sales service system.',
         about_sixth:
             'Ymin is constantly accelerating and strengthening the layout of domestic and overseas markets, and is committed to letting our products into each family and making life more convenient!',
-        about_seventh: 'Employees',
-        about_eighth: 'Overseas subsidiaries',
-        about_ninth: 'Overseas warehouse',
+        about_seventh: 'Overseas subsidiaries',
+        about_eighth: 'Overseas warehouse',
+        about_ninth: 'Employees',
         about_tenth: 'Product',
-        about_eleventh: 'Extensive coverage',
+        about_eleventh: 'Extensive Coverage',
         about_twelveth:
             'We have been actively expanding overseas business and already have built own warehouse in Singapore and France, total approx XXXX square meters. Meanwhile, professional local operation team and omni-channel sales model make us successful to sell our products overseas more than 10 countries.',
         about_thirteenth: 'Private Brand',
@@ -243,10 +244,8 @@ const langObj = {
     }
 };
 
-// lang-switcher变化
 $(document).on('change', '#lang-switcher', function () {
     const lang = $(this).val();
-    // 存入到storage
     localStorage.setItem('lang', lang);
     changLang(lang);
 });
@@ -269,6 +268,9 @@ function getip(json) {
 }
 function changLang(lang) {
     $('#lang-switcher').val(lang);
+    setTimeout(() => {
+        $('#lang-switcher').val(lang);
+    }, 100);
     const all = document.querySelectorAll('[lang]');
     all.forEach(item => {
         const key = item.getAttribute('lang');
