@@ -119,6 +119,8 @@ const langObj = {
         product_eighth: '点亮孩子们的快乐童年！从益智拼图到毛绒玩偶，从角色扮演到艺术手工，我们的玩具充满趣味与挑战。让孩子们在玩耍中快乐成长，激发无限潜能。',
         product_ninth: '宠物用品',
         product_tenth: '为您的宠物带来全方位的呵护与关爱！无论是舒适睡垫，可爱服饰还是趣味玩具，日常护理用品，全方面满足宠物的需求，确保您的宠物健康与快乐。',
+        footer_first: '江西省新余市<br/>高新开发区<br/>城东新城大道1006号<br/>融信新天地C03号',
+        footer_second: '目录',
     },
     EN: {
         msg_first: 'Ready to <br/>get started?',
@@ -241,6 +243,8 @@ const langObj = {
         product_eighth: 'Spark wonderful childhood! Our toys are full of fun and challenges, and helpful to encourage children to realize their full potential during playing, such as puzzles, stuffed dolls, role play costume, crafts, etc.',
         product_ninth: 'Pet Supplies',
         product_tenth: '',
+        footer_first: 'C03 Rong Xin Xin Tian Di,<br/>No1006 Xin Cheng Avenue,<br/> High-tech development Zone East，<br/>XinYu，JiangXi, China',
+        footer_second: 'Navigation',
     }
 };
 

@@ -1923,37 +1923,30 @@
             </div>
             <div class="col-md-6">
               <figure class="wp-block-image size-full">
-                <img src="images/shopassistant-footer-logo.svg" class="wp-image-206" />
+                <img src="images/black-logo.png" class="wp-image-206" />
               </figure>
-              <p>
-                Envato
-                <br />
-                Level 13,
-                <br />
-                2 Elizabeth,
-                <br />
-                Victoria 3000,
-                <br />
-                Australia
-              </p>
+              <p lang="footer_first"></p>
             </div>
             <div class="col-md-3">
-              <h6>Navigation</h6>
+              <h6 lang="footer_second"></h6>
               <ul>
-                <li>
-                  <a href="about.html" data-type="URL" data-id="about.html">Product</a>
+                <li @click="changeMenu('home')">
+                  <a href="#"><span lang="menu_first"></span></a>
                 </li>
-                <li>
-                  <a href="culture.html" data-type="URL" data-id="culture.html">Security</a>
+                <li @click="changeMenu('about')">
+                  <a href="#"><span lang="menu_second"></span></a>
                 </li>
-                <li>
-                  <a href="product.html" data-type="URL" data-id="product.html">Pricing</a>
+                <li @click="changeMenu('culture')">
+                  <a href="#"><span lang="menu_third"></span></a>
                 </li>
-                <li>
-                  <a href="team.html" data-type="URL" data-id="team.html">Blog</a>
+                <li @click="changeMenu('product')">
+                  <a href="#"><span lang="menu_fourth"></span></a>
                 </li>
-                <li>
-                  <a href="contact.html" data-type="URL" data-id="contact.html">Contact</a>
+                <li @click="changeMenu('team')">
+                  <a href="#"><span lang="menu_fifth"></span></a>
+                </li>
+                <li @click="changeMenu('contact')">
+                  <a href="#"><span lang="menu_sixth"></span></a>
                 </li>
               </ul>
             </div>
