@@ -10,7 +10,7 @@ const langObj = {
         msg_eighth: '电话：',
         msg_ninth: '工作时间：',
         msg_tenth: '地址：',
-        msg_eleventh: '江西省新余市高新开发区城东新城大道1006号融信新天地C03号',
+        msg_eleventh: '6 Gul Avenue Singapore629650',
         menu_first: '首页',
         menu_second: '关于我们',
         menu_third: '企业文化',
@@ -40,6 +40,8 @@ const langObj = {
         home_third_eighth: '宠物用品',
         home_third_ninth:
             '关爱宠物，温馨相伴。我们为宠物提供各类优质用品，让您的宠物享受舒适、健康的生活，与您共度美好时光。',
+        home_third_tenth: '工具',
+        home_third_eleventh: '匠心之选，必备良品。我们为您提供多功能、高质量的实用工具，多场景适用，让你的生活和工作更便捷、舒适。',
         home_fourth_first: '高分好评',
         home_fourth_second: '好评率',
         home_fourth_third: '出色',
@@ -71,13 +73,13 @@ const langObj = {
         about_tenth: '产品数量',
         about_eleventh: '覆盖多国',
         about_twelveth:
-            '我们积极布局海外，业务覆盖多个国家，<br/>通过设立新加坡、法国海外分公司、自建累<br/>计**万平方米自营大型仓库、建立专业化的<br/>本地化运营团队及全渠道销售的模式，已成<br/>功将产品销往全球10多个国家。',
+            '我们积极开拓国际市场，业务覆盖多个国家。在新加坡、中国和法国均设有公司，自建**万平方米大型仓库，同时，拥有超过**平方米的现代化生产工厂，确保产品质量和供应链稳定。专业化本地化运营团队和全渠道销售模式，已成功将产品销往全球10多个国家。',
         about_thirteenth: '自主品牌',
         about_fourteenth:
-            ' 我们公司旗下拥有主营品牌--ISIYINER，<br />同时还运营着其他多个品牌，每个品牌都拥有<br />独特的风格和市场定位，远销欧洲、东南亚等<br />多个国家和地区，在Amazon、shopee、阿里<br />巴巴等国际电商平台，在全球范围建立了良好<br />的口碑，好评率高达99%。',
+            '我们公司旗下拥有主营品牌--ISIYINER，同时还运营着其他多个品牌，每个品牌都拥有独特的风格和市场定位，在东南亚、中国、欧洲等多个国家和地区建立了良好的口碑，在Amazon、Shopee、阿里巴巴等国际电商平台，获得了广泛的认可，好评率高达99%。',
         about_fifteenth: '优秀销售团队',
         about_sixteenth:
-            '我们的销售团队由超过**名专业销售组<br />成，其中 ** % 为海外本地员工，团队成员<br />经验丰富，精通当地商业环境和市场需求，<br />能够与当地客户和合作伙伴有效沟通合作，<br />满足不同国家和地区消费者的需求。',
+            '我们的销售团队由25名专业销售组成，<br/>团队成员经验丰富，精通当地商业环境和<br/>市场需求，能够与当地客户和合作伙伴有<br/>效沟通合作，满足不同国家和地区消费者<br/>所需。',
         about_seventeenth: '<span class="themecolor">我们<br />正在努力</span><br />提供更广阔<br />的服务范围',
         culture_first: '我们的<br />文化灯塔',
         culture_second: '面对困难和挑战，<br />保持希望和坚定的信念',
@@ -119,7 +121,9 @@ const langObj = {
         product_eighth: '点亮孩子们的快乐童年！从益智拼图到毛绒玩偶，从角色扮演到艺术手工，我们的玩具充满趣味与挑战。让孩子们在玩耍中快乐成长，激发无限潜能。',
         product_ninth: '宠物用品',
         product_tenth: '为您的宠物带来全方位的呵护与关爱！无论是舒适睡垫，可爱服饰还是趣味玩具，日常护理用品，全方面满足宠物的需求，确保您的宠物健康与快乐。',
-        footer_first: '江西省新余市<br/>高新开发区<br/>城东新城大道1006号<br/>融信新天地C03号',
+        product_eleventh: '工具',
+        product_twelveth: '精选高质量实用工具，点亮生活之便！我们涵盖各类实用工具和配件，品质保证，一应俱全，可满足您家庭维修、商业用途和户外安装等多样化需求，助您生活更便捷。',
+        footer_first: '6 Gul Avenue Singapore629650',
         footer_second: '目录',
     },
     EN: {
@@ -134,7 +138,7 @@ const langObj = {
         msg_ninth: 'Operating hours：',
         msg_tenth: 'Address：',
         msg_eleventh:
-            'C03 Rong Xin Xin Tian Di,No1006 Xin Cheng Avenue, High-tech development Zone East，XinYu，JiangXi, China',
+            '6 Gul Avenue Singapore629650',
         menu_first: 'Home',
         menu_second: 'About Us',
         menu_third: 'Culture',
@@ -154,16 +158,18 @@ const langObj = {
         home_third_first: 'See more',
         home_third_second:
             'Selected high-quality products for better life，from exquisite gadgets to home decoration, are not only good choices, but also fashionable decorations with unique charm, to bring you a lovely and tasteful house.',
-        home_third_third: 'Household Items',
+        home_third_third: 'Home & Living',
         home_third_fourth: 'Outdoor Products',
         home_third_fifth:
             "Explore nature and unleash your passion. Whether you're hiking, camping or biking, our outdoor products always meet your needs. To release yourself in outdoor activities and feel the charm of nature.",
-        home_third_sixth: 'Kids Toys',
+        home_third_sixth: 'Kids & Toys',
         home_third_seventh:
             "Stimulate imagination and happy grow-up.We provide safe and interesting toys which is helpful to the development of children's intellectual and creative abilities, aiming to make childhood more colorful.",
         home_third_eighth: 'Pet Supplies',
         home_third_ninth:
             'Careness to pets and  keep them accompanied. We provide various high-quality supplies for your pets to have a comfortable and healthy life. ',
+        home_third_tenth: 'Tools',
+        home_third_eleventh: 'Our exclusive top-of-the-line products are tailored to meet all the needs of our customers, offering all the essentials of your day-to-day lives. Whether it’s maintenance, DIY projects or daily cleaning, our products combine multiple functions into one, ensuring efficiency and durability. We are dedicated to enhance your convenience and comfort.',
         home_fourth_first: 'High Rate',
         home_fourth_second: 'Positive rating',
         home_fourth_third: 'Outstanding',
@@ -216,7 +222,7 @@ const langObj = {
         culture_tenth: 'Corporate Methodology',
         culture_eleventh: 'Good quality casts a great brand',
         culture_twelveth: 'Trusted servcie towards a bright future',
-        team_first: 'Meet our team',
+        team_first: 'Meet Our Team',
         team_second: 'Passion  Energy  Creativity',
         team_third: 'Team Building 2020',
         team_fourth: "Team Building in Xi'an",
@@ -232,9 +238,9 @@ const langObj = {
         team_fourteenth: 'Team Photo',
         team_fifteenth: 'Team Building Activity in Zhuzhu Fangte',
         team_sixteenth: 'Welcome to our story',
-        team_seventeenth: 'Join our unique charming  journey',
+        team_seventeenth: 'Join Our Unique Charming  Journey',
         product_first: 'Welcome to',
-        product_second: 'Our amazing products',
+        product_second: 'Our Amazing Products',
         product_third: 'Home & Living',
         product_fourth: 'Choose our collection of household goods to bring more comfort and beauty to your life! From exquisite decorations to practical home accessories, each high-quality item is your best choice to make your home full of harmony and love.',
         product_fifth: 'Outdoor Products',
@@ -242,7 +248,9 @@ const langObj = {
         product_seventh: 'Kids & Toys',
         product_eighth: 'Spark wonderful childhood! Our toys are full of fun and challenges, and helpful to encourage children to realize their full potential during playing, such as puzzles, stuffed dolls, role play costume, crafts, etc.',
         product_ninth: 'Pet Supplies',
-        product_tenth: '',
+        product_tenth: 'Bring about comprehensive care and love for your pets ! Whether you are looking for comfy sleeping mats, fun toys or daily care products, our products will cater all the needs of your pets to ensure their wellbeing and happiness.',
+        product_eleventh: 'Tools',
+        product_twelveth: 'Our exclusive top-of-the-line products are tailored to meet all the needs of our customers, offering all the essentials of your day-to-day lives. Whether it’s maintenance, DIY projects or daily cleaning, our products combine multiple functions into one, ensuring efficiency and durability. We are dedicated to enhance your convenience and comfort.',
         footer_first: 'C03 Rong Xin Xin Tian Di,<br/>No1006 Xin Cheng Avenue,<br/> High-tech development Zone East，<br/>XinYu，JiangXi, China',
         footer_second: 'Navigation',
     }
@@ -253,21 +261,13 @@ $(document).on('change', '#lang-switcher', function () {
     localStorage.setItem('lang', lang);
     changLang(lang);
 });
-function getip(json) {
-    console.log('My IP address is: ', json);
-    let val = localStorage.getItem('lang');
-    if (val) {
-        changLang(val);
-        return;
-    }
-    // 判断是否是国内
-    let lang = 'CN';
-    if (json.country_code === 'CN') {
-        localStorage.setItem('lang', 'CN');
-    } else {
-        lang = 'EN';
-        localStorage.setItem('lang', 'EN');
-    }
+// 页面加载完调用initLang
+$(function () {
+    initLang();
+});
+function initLang() {
+    const lang = localStorage.getItem('lang') || 'EN';
+    localStorage.setItem('lang', lang);
     changLang(lang);
 }
 function changLang(lang) {

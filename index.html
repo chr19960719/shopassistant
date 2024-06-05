@@ -17,24 +17,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <!-- Favicons -->
     <link rel="shortcut icon" href="images/favicon.ico" />
-    <!-- FONTS -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,400italic,500,600,700,700italic,900"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Zen+Kaku+Gothic+New:100,200,300,400,400italic,500,600,700,700italic,900"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,400italic,500,600,700,700italic,900"
-    />
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <!--CSS -->
     <link rel="stylesheet" href="./content/css/structure.css" />
     <link rel="stylesheet" href="./content/css/shopassistant.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/index.css" />
   </head>
 
@@ -51,7 +39,7 @@
                   <div class="logo">
                     <a
                       id="logo"
-                      href="index-shopassistant.html"
+                      href="index.html"
                       title="ShopAssistant - Betheme"
                       data-height="60"
                       data-padding="15"
@@ -160,7 +148,12 @@
                 <p class="home-title-themecolor" lang="home_index_third"></p>
                 <p class="home-title-describe" lang="home_index_fourth"></p>
                 <br />
-                <a href="#" class="home-title-button" lang="home_index_button"></a>
+                <a
+                  href="#"
+                  class="home-title-button"
+                  lang="home_index_button"
+                  @click="changeMenu('contact')"
+                ></a>
               </div>
             </div>
             <div class="col-md-6" data-col="one-second">
@@ -236,13 +229,15 @@
                   class="mobile_align_center"
                   style="padding: 40px 40px 25px; border: 1px solid #e2e2e2; border-radius: 32px"
                 >
-                  <img class="product-icon" src="images/furniture.png" />
+                  <div class="product-icon-wrapper">
+                    <img class="product-icon" src="images/furniture.jpg" />
+                  </div>
                   <hr class="no_line" style="margin: 0 auto 30px auto" />
                   <hr style="margin: 0 auto 30px; background-color: #e2e2e2" />
                   <h5 lang="home_third_third"></h5>
                   <p lang="home_third_second" type="justify"></p>
                   <hr class="no_line" style="margin: 0 auto 15px auto" />
-                  <a class="button button_size_2" href="#">
+                  <a class="button button_size_2" href="#" @click="changeMenu('post', 1)">
                     <span class="button_label" lang="home_third_first"></span>
                   </a>
                 </div>
@@ -252,13 +247,15 @@
                   class="mobile_align_center"
                   style="padding: 40px 40px 25px; border: 1px solid #e2e2e2; border-radius: 32px"
                 >
-                  <img class="product-icon" src="images/outdoors.jpg" />
+                  <div class="product-icon-wrapper">
+                    <img class="product-icon" src="images/outdoors.jpg" />
+                  </div>
                   <hr class="no_line" style="margin: 0 auto 30px auto" />
                   <hr style="margin: 0 auto 30px; background-color: #e2e2e2" />
                   <h5 lang="home_third_fourth"></h5>
                   <p lang="home_third_fifth" type="justify"></p>
                   <hr class="no_line" style="margin: 0 auto 15px auto" />
-                  <a class="button button_size_2" href="#">
+                  <a class="button button_size_2" href="#" @click="changeMenu('post', 2)">
                     <span class="button_label" lang="home_third_first"></span>
                   </a>
                 </div>
@@ -271,13 +268,15 @@
                   class="column_attr clearfix mobile_align_center"
                   style="padding: 40px 40px 25px; border: 1px solid #e2e2e2; border-radius: 32px"
                 >
-                  <img class="product-icon" src="images/children-toy.jpg" />
+                  <div class="product-icon-wrapper">
+                    <img class="product-icon" src="images/children-toy.jpg" />
+                  </div>
                   <hr class="no_line" style="margin: 0 auto 30px auto" />
                   <hr style="margin: 0 auto 30px; background-color: #e2e2e2" />
                   <h5 lang="home_third_sixth"></h5>
                   <p lang="home_third_seventh" type="justify"></p>
                   <hr class="no_line" style="margin: 0 auto 15px auto" />
-                  <a class="button button_size_2" href="#">
+                  <a class="button button_size_2" href="#" @click="changeMenu('post', 3)">
                     <span class="button_label" lang="home_third_first"></span>
                   </a>
                 </div>
@@ -287,13 +286,36 @@
                   class="column_attr clearfix mobile_align_center"
                   style="padding: 40px 40px 25px; border: 1px solid #e2e2e2; border-radius: 32px"
                 >
-                  <img class="product-icon" src="images/pet-toy.jpg" />
+                  <div class="product-icon-wrapper">
+                    <img class="product-icon" src="images/pet-toy.jpg" style="transform: scale(0.85)" />
+                  </div>
                   <hr class="no_line" style="margin: 0 auto 30px auto" />
                   <hr style="margin: 0 auto 30px; background-color: #e2e2e2" />
                   <h5 lang="home_third_eighth"></h5>
                   <p lang="home_third_ninth" type="justify"></p>
                   <hr class="no_line" style="margin: 0 auto 15px auto" />
-                  <a class="button button_size_2" href="#">
+                  <a class="button button_size_2" href="#" @click="changeMenu('post', 4)">
+                    <span class="button_label" lang="home_third_first"></span>
+                  </a>
+                </div>
+              </div>
+              <div class="col-12" data-col="divider">
+                <hr class="no_line" style="margin: 0 auto 20px" />
+              </div>
+              <div class="col-md-4">
+                <div
+                  class="column_attr clearfix mobile_align_center"
+                  style="padding: 40px 40px 25px; border: 1px solid #e2e2e2; border-radius: 32px"
+                >
+                  <div class="product-icon-wrapper">
+                    <img class="product-icon" src="images/tool.jpg" />
+                  </div>
+                  <hr class="no_line" style="margin: 0 auto 30px auto" />
+                  <hr style="margin: 0 auto 30px; background-color: #e2e2e2" />
+                  <h5 lang="home_third_tenth"></h5>
+                  <p lang="home_third_eleventh" type="justify"></p>
+                  <hr class="no_line" style="margin: 0 auto 15px auto" />
+                  <a class="button button_size_2" href="#" @click="changeMenu('post', 5)">
                     <span class="button_label" lang="home_third_first"></span>
                   </a>
                 </div>
@@ -301,316 +323,7 @@
             </div>
           </div>
         </div>
-        <div
-          class="section mcb-section"
-          style="padding-top: 100px; padding-bottom: 60px; background-color: #fff7f2"
-        >
-          <div
-            class="section-decoration top"
-            style="background-image: url(images/shopassistant-section-pic1.webp); height: 35px"
-          ></div>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6" data-col="one-second">
-                <div class="row">
-                  <div class="col-md-9">
-                    <div class="mobile_align_center">
-                      <img class="scale-with-grid" src="images/shopassistant-sep1.svg" />
-                      <hr class="no_line" style="margin: 0 auto 10px auto" />
-                      <h2>
-                        <span class="themecolor">The numbers</span>
-                        <br />
-                        speak for themselves
-                      </h2>
-                      <img class="scale-with-grid" src="images/shopassistant-sep2.png" />
-                      <hr class="no_line" style="margin: 0 auto 10px auto" />
-                      <p>
-                        Massa nostra risus bibendum sociosqu est aliquet sem ornare velit tristique fusce
-                        luctus nam fames ad nisi mi mi volutpat aliquam accumsan enim sit egestas.
-                      </p>
-                      <hr class="no_line" style="margin: 0 auto 40px auto" />
-                      <div class="idea_box" style="border-radius: 24px">
-                        <div class="icon">
-                          <i class="fas fa-info-circle"></i>
-                        </div>
-                        <div class="desc">Quisque lorem tortor fringilla sed</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6" data-col="one-second">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <div
-                      class="column_attr clearfix align_right mobile_align_center"
-                      style="padding: 0 30px 0 0; border-right: 1px solid #e4e4e4"
-                    >
-                      <div
-                        class="google_font"
-                        style="
-                          font-family: '', Arial, Tahoma, sans-serif;
-                          font-size: 48px;
-                          line-height: 48px;
-                          font-weight: 400;
-                          letter-spacing: 0px;
-                          color: #12263a;
-                        "
-                      >
-                        <span class="counter-inline animate-math">
-                          <span class="number" data-to="169">169</span>
-                        </span>
-                        %
-                      </div>
-                      <p>average order value</p>
-                    </div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="column_attr clearfix" style="padding: 0 0 0 10px">
-                      <div class="progress_bars">
-                        <ul class="bars_list">
-                          <ul>
-                            <li>
-                              <h6>
-                                10 000$
-                                <span class="label">
-                                  15
-                                  <em>%</em>
-                                </span>
-                              </h6>
-                              <div class="bar" style="height: 15px">
-                                <span class="progress" style="width: 15%; background-color: #d9eee9"></span>
-                              </div>
-                            </li>
-                          </ul>
-                        </ul>
-                      </div>
-                      <div class="progress_bars">
-                        <ul class="bars_list">
-                          <ul>
-                            <li>
-                              <h6>
-                                16 900$
-                                <span class="label">
-                                  60
-                                  <em>%</em>
-                                </span>
-                              </h6>
-                              <div class="bar" style="height: 15px">
-                                <span class="progress" style="width: 60%; background-color: #43c9c7"></span>
-                              </div>
-                            </li>
-                          </ul>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <hr class="no_line" style="margin: 0 auto 30px auto" />
-                  </div>
-                  <div class="col-md-4">
-                    <div
-                      class="column_attr clearfix align_right mobile_align_center"
-                      style="padding: 0 30px 0 0; border-right: 1px solid #e4e4e4"
-                    >
-                      <div
-                        class="google_font"
-                        style="
-                          font-family: '', Arial, Tahoma, sans-serif;
-                          font-size: 48px;
-                          line-height: 48px;
-                          font-weight: 400;
-                          letter-spacing: 0px;
-                          color: #12263a;
-                        "
-                      >
-                        <span class="counter-inline animate-math">
-                          <span class="number" data-to="325">325</span>
-                        </span>
-                        %
-                      </div>
-                      <p>website traffic</p>
-                    </div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="column_attr clearfix" style="padding: 0 0 0 10px">
-                      <div class="progress_bars">
-                        <ul class="bars_list">
-                          <ul>
-                            <li>
-                              <h6>
-                                94 unique visitors
-                                <span class="label">
-                                  40
-                                  <em>%</em>
-                                </span>
-                              </h6>
-                              <div class="bar" style="height: 15px">
-                                <span class="progress" style="width: 40%; background-color: #ffefc2"></span>
-                              </div>
-                            </li>
-                          </ul>
-                        </ul>
-                      </div>
-                      <div class="progress_bars">
-                        <ul class="bars_list">
-                          <ul>
-                            <li>
-                              <h6>
-                                214 unique visitors
-                                <span class="label">
-                                  100
-                                  <em>%</em>
-                                </span>
-                              </h6>
-                              <div class="bar" style="height: 15px">
-                                <span class="progress" style="width: 100%; background-color: #ffcf00"></span>
-                              </div>
-                            </li>
-                          </ul>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <hr class="no_line" style="margin: 0 auto 30px auto" />
-                  </div>
-                  <div class="col-md-4">
-                    <div
-                      class="column_attr clearfix align_right mobile_align_center"
-                      style="padding: 0 40px 0 0; border-right: 1px solid #e4e4e4"
-                    >
-                      <div
-                        class="google_font"
-                        style="
-                          font-family: '', Arial, Tahoma, sans-serif;
-                          font-size: 48px;
-                          line-height: 48px;
-                          font-weight: 400;
-                          letter-spacing: 0px;
-                          color: #12263a;
-                        "
-                      >
-                        <span class="counter-inline animate-math">
-                          <span class="number" data-to="47">47</span>
-                        </span>
-                        %
-                      </div>
-                      <p>fewer abandoned shopping cards</p>
-                    </div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="column_attr clearfix" style="padding: 0 0 0 10px">
-                      <div class="progress_bars">
-                        <ul class="bars_list">
-                          <ul>
-                            <li>
-                              <h6>
-                                155
-                                <span class="label">
-                                  35
-                                  <em>%</em>
-                                </span>
-                              </h6>
-                              <div class="bar" style="height: 15px">
-                                <span class="progress" style="width: 35%; background-color: #eddeea"></span>
-                              </div>
-                            </li>
-                          </ul>
-                        </ul>
-                      </div>
-                      <div class="progress_bars">
-                        <ul class="bars_list">
-                          <ul>
-                            <li>
-                              <h6>
-                                85
-                                <span class="label">
-                                  15
-                                  <em>%</em>
-                                </span>
-                              </h6>
-                              <div class="bar" style="height: 15px">
-                                <span class="progress" style="width: 15%; background-color: #a579c8"></span>
-                              </div>
-                            </li>
-                          </ul>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <hr class="no_line" style="margin: 0 auto 30px auto" />
-                  </div>
-                  <div class="col-md-4">
-                    <div
-                      class="column_attr clearfix align_right mobile_align_center"
-                      style="padding: 0 40px 0 0; border-right: 1px solid #e4e4e4"
-                    >
-                      <div
-                        class="google_font"
-                        style="
-                          font-family: '', Arial, Tahoma, sans-serif;
-                          font-size: 48px;
-                          line-height: 48px;
-                          font-weight: 400;
-                          letter-spacing: 0px;
-                          color: #12263a;
-                        "
-                      >
-                        <span class="counter-inline animate-math">
-                          <span class="number" data-to="133">133</span>
-                        </span>
-                        %
-                      </div>
-                      <p>increase in sales by one customer</p>
-                    </div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="column_attr clearfix" style="padding: 0 0 0 10px">
-                      <div class="progress_bars">
-                        <ul class="bars_list">
-                          <ul>
-                            <li>
-                              <h6>
-                                3 orders
-                                <span class="label">
-                                  30
-                                  <em>%</em>
-                                </span>
-                              </h6>
-                              <div class="bar" style="height: 15px">
-                                <span class="progress" style="width: 30%; background-color: #f4deda"></span>
-                              </div>
-                            </li>
-                          </ul>
-                        </ul>
-                      </div>
-                      <div class="progress_bars">
-                        <ul class="bars_list">
-                          <ul>
-                            <li>
-                              <h6>
-                                4 orders
-                                <span class="label">
-                                  40
-                                  <em>%</em>
-                                </span>
-                              </h6>
-                              <div class="bar" style="height: 15px">
-                                <span class="progress" style="width: 40%; background-color: #c87979"></span>
-                              </div>
-                            </li>
-                          </ul>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
         <div
           class="section mcb-section bg-contain"
           style="
@@ -1037,7 +750,7 @@
                   <div class="text-center" style="background-color: #620836; padding: 70px 30px 55px">
                     <div class="google_font">
                       <span class="counter-inline animate-math">
-                        <span class="number" data-to="54">54</span>
+                        <span class="number" data-to="57">57</span>
                       </span>
                     </div>
                     <hr class="no_line" style="margin: 0 auto 20px auto" />
@@ -1370,7 +1083,7 @@
             </div>
             <div class="col-md-6" data-col="one-second">
               <div class="column_attr clearfix align_right mobile_align_center">
-                <img src="images/shopassistant-blog-pic1.webp" />
+                <img src="images/product-bg.png" style="max-width: fit-content" />
               </div>
             </div>
           </div>
@@ -1516,6 +1229,40 @@
                       </div>
                     </div>
                   </div>
+                  <div class="post-item isotope-item clearfix post">
+                    <div class="image_frame post-photo-wrapper scale-with-grid image">
+                      <div class="image_wrapper">
+                        <a href="#" @click="changeMenu('post', 5)">
+                          <div class="mask"></div>
+                          <img
+                            width="960"
+                            height="720"
+                            src="images/Tool-Products.jpg"
+                            class="scale-with-grid wp-post-image"
+                            loading="lazy"
+                          />
+                        </a>
+                        <div class="image_links double">
+                          <a href="images/Tool-Products.jpg" class="zoom" rel="prettyphoto">
+                            <i class="icon-search"></i>
+                          </a>
+                          <a href="#" @click="changeMenu('post', 5)" class="link">
+                            <i class="icon-link"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="post-desc-wrapper bg- has-custom-bg">
+                      <div class="post-desc">
+                        <div class="post-title">
+                          <h4 class="entry-title">
+                            <a href="#" @click="changeMenu('post', 5)" lang="product_eleventh"></a>
+                          </h4>
+                        </div>
+                        <div class="post-excerpt" lang="product_twelveth"></div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1550,7 +1297,7 @@
                 }"
                 ></div>
                 <div :class="`col-md-3 sort-item ${avtiveType === 1 ? 'active' : ''}`" @click="changeType(1)">
-                  <img class="product-icon" src="images/furniture.png" />
+                  <img class="product-icon" src="images/furniture.jpg" />
                   <span lang="home_third_third"></span>
                 </div>
                 <div :class="`col-md-3 sort-item ${avtiveType === 2 ? 'active' : ''}`" @click="changeType(2)">
@@ -1562,8 +1309,12 @@
                   <span lang="home_third_sixth"></span>
                 </div>
                 <div :class="`col-md-3 sort-item ${avtiveType === 4 ? 'active' : ''}`" @click="changeType(4)">
-                  <img class="product-icon" src="images/pet-toy.jpg" />
+                  <img class="product-icon" src="images/pet-toy.jpg" style="transform: scale(0.85)" />
                   <span lang="home_third_eighth"></span>
+                </div>
+                <div :class="`col-md-3 sort-item ${avtiveType === 5 ? 'active' : ''}`" @click="changeType(5)">
+                  <img class="product-icon" src="images/tool.jpg" />
+                  <span lang="home_third_tenth"></span>
                 </div>
               </div>
               <div class="col-12">
@@ -1574,14 +1325,28 @@
                         <div
                           class="product-img-image_wrapper"
                           :style="{
-                              'height': `${tabRefWidth-60}px`
-                            }"
+                            'height': `${tabRefWidth-60}px`,
+                          }"
                         >
-                          <img :src="item.img" style="width: 100%; height: 100%; object-fit: contain" />
+                          <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <img :src="item.img" style="width: 100%; height: 100%; object-fit: contain" />
+                              </div>
+                              <div class="swiper-slide" v-if="item.img2">
+                                <img
+                                  :src="item.img2"
+                                  style="width: 100%; height: 100%; object-fit: contain"
+                                />
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
+
                       <div class="title" :title="item.title">{{item.title}}</div>
-                      <div class="desc" :title="item.desc">{{item.desc}}</div>
+                      <div class="desc" :title="item.desc1" v-html="item.desc1"></div>
+                      <div class="desc" :title="item.desc2" v-html="item.desc2"></div>
                     </div>
                   </div>
                 </div>
@@ -1615,7 +1380,7 @@
             </div>
             <div class="col-md-6" data-col="one-second">
               <div class="column_attr clearfix align_right mobile_align_center">
-                <img src="images/shopassistant-pricing-pic1.webp" />
+                <img src="images/team-bg.png" />
               </div>
             </div>
           </div>
@@ -1839,6 +1604,32 @@
           </div>
         </div>
       </div>
+      <div id="Content" class="contact-wrapper" lang-style="contact" v-show="currentMenu === 'contact'">
+        <div
+          class="section no-margin-h no-margin-v full-width wrap-reverse bg-contain"
+          style="padding-bottom: 100px; background-repeat: no-repeat; background-position: left bottom"
+        >
+          <div class="row">
+            <div class="col-md-1" data-col="one-sixth">
+              <div class="placeholder">&nbsp;</div>
+            </div>
+            <div class="col-md-5 contact" data-col="one-third">
+              <div class="mobile_align_center">
+                <hr class="no_line" style="margin: 0 auto 10px auto" />
+                <h1 class="line-hight-168">
+                  <span lang="contact_first" class="contact-title"></span>
+                  <p class="themecolor" lang="contact_second"></p>
+                </h1>
+              </div>
+            </div>
+            <div class="col-md-6" data-col="one-second">
+              <div class="column_attr clearfix align_right mobile_align_center">
+                <img src="images/contact-bg.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <footer id="Footer" class="clearfix">
         <div
@@ -1898,7 +1689,7 @@
                       <div class="column one-second">
                         <span lang="msg_eighth"></span>
                       </div>
-                      <div class="column one-second">+86 07906863655</div>
+                      <div class="column one-second">+65 8589 8597</div>
                       <div class="column one-second">
                         <span lang="msg_ninth"></span>
                       </div>
@@ -1990,6 +1781,7 @@
       <div class="menu_wrapper"></div>
     </div>
     <!-- JS -->
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/datas.js"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
@@ -2001,7 +1793,6 @@
     <script src="js/translate3d.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/index.js"></script>
-    <script type="application/javascript" src="https://api.ip.sb/geoip?callback=getip"></script>
     <script src="js/index-vue.js"></script>
   </body>
 </html>
