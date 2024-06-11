@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="./content/css/shopassistant.css" />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <!-- JS -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/element-plus/dist/index.css" />
   </head>
 
   <body
@@ -231,6 +233,16 @@
                 >
                   <div class="product-icon-wrapper">
                     <img class="product-icon" src="images/furniture.jpg" />
+                    <!-- <el-image
+                      style="width: 96px; height: auto"
+                      src="images/furniture.jpg"
+                      :zoom-rate="1.2"
+                      :max-scale="7"
+                      :min-scale="0.2"
+                      :preview-src-list="['images/furniture.jpg']"
+                      :initial-index="4"
+                      fit="cover"
+                    /> -->
                   </div>
                   <hr class="no_line" style="margin: 0 auto 30px auto" />
                   <hr style="margin: 0 auto 30px; background-color: #e2e2e2" />
@@ -1331,12 +1343,34 @@
                           <div class="swiper mySwiper">
                             <div class="swiper-wrapper">
                               <div class="swiper-slide">
-                                <img :src="item.img" style="width: 100%; height: 100%; object-fit: contain" />
+                                <!-- <img :src="item.img" style="width: 100%; height: 100%; object-fit: contain" /> -->
+                                <el-image
+                                  style="width: 100%; height: 100%"
+                                  :src="item.img"
+                                  :zoom-rate="1.2"
+                                  :max-scale="7"
+                                  :min-scale="0.2"
+                                  :preview-src-list="item.img2 ? [item.img, item.img2] : [item.img]"
+                                  :initial-index="4"
+                                  :preview-teleported="true"
+                                  fit="cover"
+                                />
                               </div>
                               <div class="swiper-slide" v-if="item.img2">
-                                <img
+                                <!-- <img
                                   :src="item.img2"
                                   style="width: 100%; height: 100%; object-fit: contain"
+                                /> -->
+                                <el-image
+                                  style="width: 100%; height: 100%"
+                                  :src="item.img2"
+                                  :zoom-rate="1.2"
+                                  :max-scale="7"
+                                  :min-scale="0.2"
+                                  :preview-src-list="item.img2 ? [item.img, item.img2] : [item.img]"
+                                  :initial-index="4"
+                                  :preview-teleported="true"
+                                  fit="cover"
                                 />
                               </div>
                             </div>
@@ -1780,10 +1814,13 @@
       </div>
       <div class="menu_wrapper"></div>
     </div>
-    <!-- JS -->
+
+    <!-- Import Vue 3 -->
+    <script src="//cdn.jsdelivr.net/npm/vue@3"></script>
+    <!-- Import component library -->
+    <script src="//cdn.jsdelivr.net/npm/element-plus"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/datas.js"></script>
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/jquery-migrate-3.3.2.js"></script>
     <script src="js/mfn.menu.js"></script>

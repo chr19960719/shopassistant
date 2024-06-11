@@ -1,6 +1,6 @@
 const { createApp, ref, onMounted, computed, onUnmounted, nextTick } = Vue;
 
-createApp({
+const app = createApp({
     setup() {
         const currentMenu = ref('post');
         const lang = ref('CN');
@@ -109,4 +109,7 @@ createApp({
             changeLanguage
         };
     }
-}).mount('#Wrapper');
+});
+
+app.use(ElementPlus);
+app.mount('#Wrapper');
