@@ -17,6 +17,7 @@ const langObj = {
         menu_fourth: '产品',
         menu_fifth: '员工风采',
         menu_sixth: '联系我们',
+        menu_seventh: '工厂',
         home_index_first: '跨境无界',
         home_index_second: '商机无限',
         home_index_third: '世界触手可及',
@@ -125,6 +126,19 @@ const langObj = {
         product_twelveth: '精选高质量实用工具，点亮生活之便！我们涵盖各类实用工具和配件，品质保证，一应俱全，可满足您家庭维修、商业用途和户外安装等多样化需求，助您生活更便捷。',
         footer_first: '6 Gul Avenue Singapore629650',
         footer_second: '目录',
+        contact_first: '敬请随时',
+        contact_second: '与我们联系',
+        factory_first: '我们的工厂',
+        factory_second: '您的信赖之选',
+        factory_third: '专注优质产品的定制与批发',
+        factory_fourth: '规模优势，产能保障',
+        factory_fifth: "厂区面积高达1000平方米，拥有20多台现代化的先进的机械生产设备；集产品设计、车加工、热处理、质检、表面处理和包装于一体的一站式工厂；可为您量身打造高性价比的细分产品，保证产品的产能和品质。",
+        factory_sixth: '产品规格多种类齐全',
+        factory_seventh: '能为客户提供定制化的解决方案',
+        factory_eighth: '我们具备全面且成熟的产品研发与生产能力，涵盖多种产品生产线，其中在弹簧制作领域，我们拥有拉簧、压簧和扭簧标准型号近2500个规格可供客户选择；也可提供专业的定制服务，按照客户图纸及要求进行精确、高效的产品生产。',
+        factory_ninth: '专业的员工团队',
+        factory_tenth: '生产与品控双重保障，多领域广泛应用',
+        factory_eleventh: '由从事相关行业近二十年的工程师担任技术指导，组建了一支高素质和高水平的员工队伍，拥有严格的生产工艺和完善的品控管理体系；所生产的产品广泛应用于高低压电器、汽车、开关、电子工具、医疗器械、通讯设备、家用电及机械设备等相关领域，可为多领域客户提供最优质的服务与最可靠的产品。',
     },
     EN: {
         msg_first: 'Ready to <br/>get started?',
@@ -145,6 +159,7 @@ const langObj = {
         menu_fourth: 'Product',
         menu_fifth: 'Our Team',
         menu_sixth: 'Contact Us',
+        menu_seventh: 'Factory',
         home_index_first: 'Worldwide<br/> Procurement',
         home_index_second: 'Infinitely extended business opportunities',
         home_index_third: 'The world is within reach',
@@ -253,6 +268,10 @@ const langObj = {
         product_twelveth: 'Our exclusive top-of-the-line products are tailored to meet all the needs of our customers, offering all the essentials of your day-to-day lives. Whether it’s maintenance, DIY projects or daily cleaning, our products combine multiple functions into one, ensuring efficiency and durability. We are dedicated to enhance your convenience and comfort.',
         footer_first: 'C03 Rong Xin Xin Tian Di,<br/>No1006 Xin Cheng Avenue,<br/> High-tech development Zone East，<br/>XinYu，JiangXi, China',
         footer_second: 'Navigation',
+        contact_first: "Don't Hesitate to",
+        contact_second: 'Get in Touch with Us',
+        factory_first: 'Our Factory',
+        factory_second: 'Your Trustworthy Partner'
     }
 };
 

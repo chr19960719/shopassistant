@@ -45,7 +45,9 @@ const app = createApp({
             const type = url.searchParams.get('type');
             currentMenu.value = url.searchParams.get('menu') || 'home';
             avtiveType.value = Number(type) || 1;
-            initSwiper();
+            nextTick(() => {
+                initSwiper();
+            });
         };
 
         let mySwipers = null;
@@ -59,8 +61,7 @@ const app = createApp({
             mySwipers = new Swiper(".mySwiper", {
                 autoplay: {
                     delay: 2000,
-                    stopOnLastSlide: false,
-                    disableOnInteraction: true,
+                    disableOnInteraction: false,
                 },
             });
         };

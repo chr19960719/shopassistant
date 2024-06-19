@@ -104,6 +104,12 @@
                           <a href="#"><span lang="menu_fourth"></span></a>
                         </li>
                         <li
+                          :class="{ 'current-menu-item': currentMenu ==='factory' }"
+                          @click="changeMenu('factory')"
+                        >
+                          <a href="#"><span lang="menu_seventh"></span></a>
+                        </li>
+                        <li
                           :class="{ 'current-menu-item': currentMenu === 'team' }"
                           @click="changeMenu('team')"
                         >
@@ -1389,6 +1395,224 @@
           </div>
         </div>
       </div>
+      <div id="Content" class="factory-wrapper" lang-style="factory" v-show="currentMenu === 'factory'">
+        <div
+          class="section no-margin-h no-margin-v full-width wrap-reverse bg-contain"
+          style="padding-bottom: 100px; background-repeat: no-repeat; background-position: left bottom"
+        >
+          <div class="row">
+            <div class="col-md-1" data-col="one-sixth">
+              <div class="placeholder">&nbsp;</div>
+            </div>
+            <div class="col-md-5 factory" data-col="one-third">
+              <div class="mobile_align_center">
+                <hr class="no_line" style="margin: 0 auto 10px auto" />
+                <h1 class="line-hight-168">
+                  <span lang="factory_first" class="factory-title"></span>
+                  <p class="themecolor" lang="factory_second"></p>
+                </h1>
+              </div>
+            </div>
+            <div class="col-md-6" data-col="one-second">
+              <div class="column_attr clearfix align_right mobile_align_center">
+                <img src="images/factory-bg.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section" style="padding-top: 100px; margin-bottom: 50px">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6" data-col="one-second">
+                <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                  <div class="image_wrapper">
+                    <div class="swiper mySwiper factory-slider">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <img src="images/factory/1.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/factory/2.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/factory/3.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/factory/4.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/factory/5.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/factory/17.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/factory/20.jpg" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6" data-col="one-second">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="placeholder">&nbsp;</div>
+                  </div>
+                  <div class="col-md-9">
+                    <div
+                      class="column_attr clearfix mobile_align_center"
+                      style="
+                        background-image: url('images/shopassistant-wrap-bg2.svg');
+                        background-repeat: no-repeat;
+                        background-position: right top;
+                      "
+                    >
+                      <h4 lang="factory_third"></h4>
+                      <h4 lang="factory_fourth"></h4>
+                      <img class="scale-with-grid" src="images/shopassistant-sep2.png" />
+                      <hr class="no_line" style="margin: 0 auto 15px auto" />
+                      <p class="factory-describe" lang="factory_fifth"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section no-margin-h no-margin-v full-width">
+          <div class="row">
+            <div class="image_frame image_item no_link scale-with-grid stretch no_border">
+              <div class="image_wrapper">
+                <img class="scale-with-grid" src="images/shopassistant-sep4.svg" alt="shopassistant-sep4" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section" style="padding-top: 100px; margin-bottom: 50px">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6" data-col="one-second">
+                <div class="row">
+                  <div class="col-md-10">
+                    <div
+                      class="column_attr clearfix mobile_align_center"
+                      style="
+                        background-image: url('images/shopassistant-wrap-bg2.svg');
+                        background-repeat: no-repeat;
+                        background-position: right top;
+                      "
+                    >
+                      <h4 lang="factory_sixth"></h4>
+                      <h4 lang="factory_seventh"></h4>
+                      <img class="scale-with-grid" src="images/shopassistant-sep2.png" />
+                      <hr class="no_line" style="margin: 0 auto 15px auto" />
+                      <p class="factory-describe" lang="factory_eighth"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6" data-col="one-second">
+                <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                  <div class="image_wrapper">
+                    <div class="swiper mySwiper factory-slider">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <img src="images/factory/6.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/factory/7.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/factory/8.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/factory/9.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/factory/10.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/factory/11.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/factory/12.jpg" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section mcb-section no-margin-h no-margin-v full-width">
+          <div class="row">
+            <div class="image_frame image_item no_link scale-with-grid stretch no_border">
+              <div class="image_wrapper">
+                <img class="scale-with-grid" src="images/shopassistant-sep5.svg" alt="shopassistant-sep5" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section" style="padding-top: 100px; margin-bottom: 50px">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6" data-col="one-second">
+                <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                  <div class="image_wrapper">
+                    <div class="swiper mySwiper factory-slider">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <img src="images/factory/13.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/factory/14.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/factory/15.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/factory/16.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/factory/18.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/factory/19.jpg" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6" data-col="one-second">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="placeholder">&nbsp;</div>
+                  </div>
+                  <div class="col-md-9">
+                    <div
+                      class="column_attr clearfix mobile_align_center"
+                      style="
+                        background-image: url('images/shopassistant-wrap-bg2.svg');
+                        background-repeat: no-repeat;
+                        background-position: right top;
+                      "
+                    >
+                      <h4 lang="factory_third"></h4>
+                      <h4 lang="factory_fourth"></h4>
+                      <img class="scale-with-grid" src="images/shopassistant-sep2.png" />
+                      <hr class="no_line" style="margin: 0 auto 15px auto" />
+                      <p class="factory-describe" lang="factory_fifth"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div id="Content" class="team-wrapper" lang-style="team" v-show="currentMenu === 'team'">
         <div
           class="section no-margin-h no-margin-v full-width wrap-reverse bg-contain"
@@ -1766,6 +1990,9 @@
                 </li>
                 <li @click="changeMenu('product')">
                   <a href="#"><span lang="menu_fourth"></span></a>
+                </li>
+                <li @click="changeMenu('factory')">
+                  <a href="#"><span lang="menu_seventh:"></span></a>
                 </li>
                 <li @click="changeMenu('team')">
                   <a href="#"><span lang="menu_fifth"></span></a>
