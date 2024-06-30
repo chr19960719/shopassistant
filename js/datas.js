@@ -22,7 +22,7 @@ window.allList = {
             img: "images/product/household/4.jpg",
             title: "彩色皮包式28格随身药盒",
             desc1: "尺寸：20 x 12 x 2.5cm",
-            desc2: "材质：PP塑料",
+            desc2: "材质：塑料",
         },
         {
             img: "images/product/household/5.jpg",
@@ -51,7 +51,7 @@ window.allList = {
         {
             img: "images/product/household/9.jpg",
             title: "防滑浴缸淋浴安全把手",
-            desc1: "尺寸：总长28.5 cm",
+            desc1: "尺寸：总长25 cm",
             desc2: "材质：不锈钢",
         },
         {
@@ -93,8 +93,8 @@ window.allList = {
         {
             img: "images/product/household/15.jpg",
             title: "旅行分装瓶套装",
-            desc1: "尺寸：洗漱包尺寸20.5 x 11.5 x 4 cm",
-            desc2: "材质：PETG塑料",
+            desc1: "洗漱包尺寸：20.5 x 11.5 x 4 cm",
+            desc2: "材质：PET塑料",
         },
         {
             img: "images/product/household/15-1.jpg",
@@ -172,8 +172,8 @@ window.allList = {
         },
         {
             img: "images/product/outdoor/3-1.jpg",
-            title: "彩色亮片",
-            desc1: "尺寸：单个长 3cm  &#12288宽1.3cm <br/> 厚1.1cm&#12288重3g",
+            title: "彩色亮片鱼饵",
+            desc1: "尺寸：单个长3cm 宽1.3cm<br/>&#12288&#12288&#12288厚1.1cm 重3g",
             desc2: "材质：金属",
         },
         {
@@ -283,7 +283,7 @@ window.allList = {
         {
             img: "images/product/kids/4.jpg",
             title: "儿童仿真水果蔬菜切割玩具",
-            desc1: "包装尺寸：23.5 x 18cm",
+            desc1: "包装尺寸：23.5 x 18 x 8cm",
             desc2: "材质：木质 + 磁铁"
         },
         {
@@ -399,7 +399,7 @@ window.allList = {
         {
             img: "images/product/pet/6.jpg",
             title: "宠物外出便携式斜挎包",
-            desc1: "尺寸：肩带宽12cm 袋深30cm<br/>&#12288&#12288&#12288袋宽60cm",
+            desc1: "尺寸：肩带宽12cm <br/>袋深30cm 袋宽60cm",
             desc2: "材质：棉+涤纶"
         },
         {
@@ -633,9 +633,9 @@ window.enAllList = {
         },
         {
             img: "images/product/household/4.jpg",
-            title: "彩色皮包式28格随身药盒",
+            title: "28-Grid Portable Leather Medicine Storage Box",
             desc1: "Size: 20 x 12 x 2.5cm",
-            desc2: "Material: PP Plastic",
+            desc2: "Material: Plastic",
         },
         {
             img: "images/product/household/5.jpg",
@@ -664,7 +664,7 @@ window.enAllList = {
         {
             img: "images/product/household/9.jpg",
             title: "Anti-slip Bathtub Shower Safety Handle",
-            desc1: "Size: total length 28.5 cm",
+            desc1: "Size: 25cm",
             desc2: "Material: Stainless Steel",
         },
         {
@@ -687,7 +687,7 @@ window.enAllList = {
         },
         {
             img: "images/product/household/12.jpg",
-            title: "Foldable hanging Rubbish Bin",
+            title: "Foldable Hanging Rubbish Bin",
             desc2: "Material: ABS",
             desc1: "SCapacity: 9L Expanded Dimensions: 25.3 x 17.5 x 28.6cm Folded Dimensions: 25.3 x 8 x 28.6 cm",
         },
@@ -717,7 +717,7 @@ window.enAllList = {
         },
         {
             img: "images/product/household/16.jpg",
-            title: "Wood Hand cranked Music Box",
+            title: "Wood Hand Cranked Music Box",
             desc1: "Size: 6.5 x 5 x 3.6 cm",
             desc2: "Material: Wood",
         },
@@ -747,9 +747,9 @@ window.enAllList = {
         },
         {
             img: "images/product/household/20.jpg",
-            title: "Aquarium Cleaning Brush Double-headed Stainless Steel Spring",
-            desc1: "Size: total length 155cm",
-            desc2: "Material: Nylo 刷毛和Stainless Steel",
+            title: "Double-sided Aquarium Pipe Cleaning Brush",
+            desc1: "Size: 155cm",
+            desc2: "Material: Nylon Brush, Steeless",
         },
         {
             img: "images/product/household/21.jpg",
@@ -759,7 +759,7 @@ window.enAllList = {
         },
         {
             img: "images/product/household/22.jpg",
-            title: "Long-handled Soft Bath Brush",
+            title: "Long-Handled Soft Bath Brush",
             desc1: "Size: 35 x 7 cm",
             desc2: "Material: PET Nylon Filaments + PP Handle"
         }
@@ -785,9 +785,9 @@ window.enAllList = {
         },
         {
             img: "images/product/outdoor/3-1.jpg",
-            title: "彩色亮片",
-            desc1: "Size: 单个长 3cm  &#12288宽1.3cm <br/> 厚1.1cm&#12288重3g",
-            desc2: "Material: 金属",
+            title: "Colorful Glitter Fishing Bait",
+            desc1: "Size: Each length:3cm,  Width:1.3 cm,  Thickness:1.1cm, Mass:3g",
+            desc2: "Material: Metal",
         },
         {
             img: "images/product/outdoor/4.jpg",
@@ -809,14 +809,14 @@ window.enAllList = {
         },
         {
             img: "images/product/outdoor/7.jpg",
-            title: "Outdoor Mobile Sports Armband for Mobile Phone with headphone hole ",
+            title: "Outdoor Mobile Sports Armband for Mobile Phone With Headphone Hole",
             desc1: "Size: 9 x 10 x 3.5cm",
-            desc2: "Material: Nylo",
+            desc2: "Material: Nylon",
         },
         {
             img: "images/product/outdoor/8.jpg",
             title: "Outdoor Climbing Buckle + Card Holder",
-            desc1: "Extendable length: 80cm",
+            desc1: "Extendable Length: 80cm",
             desc2: "Material: ABS + Stainless Steel",
         },
         {
@@ -840,12 +840,12 @@ window.enAllList = {
         {
             img: "images/product/outdoor/12.jpg",
             title: "Outdoor Sun Hat",
-            desc1: "Hat circumference: 56-58cm",
+            desc1: "Hat Circumference: 56-58cm",
             desc2: "Material: Polyester + Cotton",
         },
         {
             img: "images/product/outdoor/13.jpg",
-            title: "Touchscreen-Compatible Sun Protection Gloves",
+            title: "Touch Screen Sun Protection Gloves",
             desc1: "Size: Length 21 cm, Width 9 cm, Wrist Width 15 cm",
             desc2: "Material: Ice Silk"
         },
@@ -853,12 +853,12 @@ window.enAllList = {
             img: "images/product/outdoor/15.jpg",
             title: "Sports Waterproof Waist Bag",
             desc1: "Size: 18.5 x 9 cm",
-            desc2: "Material: Nylo + Polyester",
+            desc2: "Material: Nylon + Polyester",
         },
         {
             img: "images/product/outdoor/16.jpg",
             title: "Bicyle Mobile Phone Holder",
-            desc1: "Size: 适用手机屏幕4.5 -7.0 英寸",
+            desc1: "Size: Suitable for Phone Screen of 4.5- 7.0 inches",
             desc2: "Material: Silicone",
         },
         {
@@ -889,19 +889,19 @@ window.enAllList = {
         },
         {
             img: "images/product/kids/3.jpg",
-            title: "Tetris puzzle",
+            title: "Tetris Puzzle",
             desc1: "Size: 25.5 x 19 x 5 cm",
             desc2: "Material: Wood + Plastic"
         },
         {
             img: "images/product/kids/4.jpg",
-            title: "Wooden Play Food Toys for Kids Kitchen,Cutting toys",
-            desc1: "Size: 23.5 x 18cm",
+            title: "Wooden Play Food Toys for Kids Kitchen,Cutting Toys",
+            desc1: "Size: 23.5 x 18 x 8cm",
             desc2: "Material: Wood + Magnet"
         },
         {
             img: "images/product/kids/5.jpg",
-            title: "Painting Kits for Kids Drawing tools",
+            title: "Painting Kits for Kids Drawing Tools",
             desc1: "Size: 28.5 x 21.3 x 6.9 cm",
             desc2: "Material: Sponge, Foam, and EVA"
         },
@@ -925,7 +925,7 @@ window.enAllList = {
         },
         {
             img: "images/product/kids/9.jpg",
-            title: "Montessori Four-color Game Logic Thinking Educational Toy",
+            title: "Montessori Four-Color Game Logic Thinking Educational Toy",
             desc1: "Size: 24 x 19.7 x 4cm",
             desc2: "Material: Wood"
         },
@@ -957,13 +957,13 @@ window.enAllList = {
             img: "images/product/kids/14.jpg",
             title: "Polymer Clay Bead Set",
             desc1: "Size: 19 x 13.3 x 3.7 cm  ",
-            desc2: "Material: 聚合物粘土"
+            desc2: "Material: Polymer Clay"
         },
         {
             img: "images/product/kids/15.jpg",
             title: "Plush Hand Puppet Toy Doll",
             desc1: "Large size: 28.3 cm, Small size: 7.2 cm",
-            desc2: " Material: Plush"
+            desc2: "Material: Long Plush"
         },
         {
             img: "images/product/kids/16.jpg",
@@ -974,7 +974,7 @@ window.enAllList = {
         {
             img: "images/product/kids/17.jpg",
             title: "Baby Wrist Rattles Foot Finder Socks Set",
-            desc1: "Watchband size: 16.5 x 3.5 cm, Sock size: 18.5 x 6 cm ",
+            desc1: "Watchband Size: 16.5 x 3.5 cm, Sock Size: 18.5 x 6 cm ",
             desc2: "Material: Plush + Cotton"
         },
     ],
@@ -983,13 +983,13 @@ window.enAllList = {
             img: "images/product/pet/1.jpg",
             title: "Airtag Reflective Adjustable Dog Collar",
             desc1: "Size: Diameter 38-45cm",
-            desc2: "Material: Plastic + Nylo "
+            desc2: "Material: Plastic + Nylon "
         },
         {
             img: "images/product/pet/2.jpg",
             title: "Pet Safety Adjustable Car Seat Belt Leash",
             desc1: "Strap Length: 50-89 cm (Adjustable)",
-            desc2: "Material: Nylo"
+            desc2: "Material: Nylon"
         },
         {
             img: "images/product/pet/3.jpg",
@@ -1023,7 +1023,7 @@ window.enAllList = {
         },
         {
             img: "images/product/pet/8.jpg",
-            title: "Pets Training Bells Metal Doorbells",
+            title: "Pet Training Bells Metal Doorbells",
             desc1: "Diameter 7.2 cm, Height 5 cm",
             desc2: "Material: Metal"
         },
@@ -1042,7 +1042,7 @@ window.enAllList = {
         {
             img: "images/product/pet/11.jpg",
             title: "Adjustable Pet Striped Neck Tie",
-            desc1: "Tie circumference: 32 cm, Adjustable size: 24-30 cm, Polyester Cotton",
+            desc1: "Tie Circumference: 32 cm, Adjustable size: 24-30 cm, Polyester Cotton",
             desc2: "Material: Polyester Cotton"
         },
         {
@@ -1055,7 +1055,7 @@ window.enAllList = {
             img: "images/product/pet/13.jpg",
             title: "Foldable Pet Cat Play Tunnel Tube Rabbit,Cat,Guinea Pigs",
             desc1: "Size: 30 x 28 x 3.5 cm",
-            desc2: "Material: Polyester Fiber"
+            desc2: "Material: Polyester Fibre"
         },
         {
             img: "images/product/pet/14.jpg",
@@ -1079,7 +1079,7 @@ window.enAllList = {
             img: "images/product/pet/17.jpg",
             title: "Medium-large Sized Dog Leash",
             desc1: "Size: 1.8m",
-            desc2: "Material: Nylo "
+            desc2: "Material: Nylon "
         },
     ],
     5: [
@@ -1094,34 +1094,34 @@ window.enAllList = {
             img2: "images/product/tool/2-1.jpg",
             title: "M4 20-Series T-Slot Nut",
             desc1: "Size: As shown in picture",
-            desc2: "Material: Galvanized carbon steel"
+            desc2: "Material: Galvanised Carbon Steel"
         },
         {
             img: "images/product/tool/3.jpg",
             img2: "images/product/tool/3-1.jpg",
             title: "M5 20-Series T-Slot Nut",
             desc1: "Size: As shown in picture",
-            desc2: "Material: Galvanized carbon steel"
+            desc2: "Material: Galvanised Carbon Steel"
         },
         {
             img: "images/product/tool/4.jpg",
             img2: "images/product/tool/4-1.jpg",
             title: "M6 30-Series T-Slot Nut",
             desc1: "Size: As shown in picture",
-            desc2: "Material: Galvanized carbon steel"
+            desc2: "Material: Galvanised Carbon Steel"
         },
         {
             img: "images/product/tool/5.jpg",
             img2: "images/product/tool/5-1.jpg",
             title: "M8 30-Series T-Slot Nut",
             desc1: "Size: As shown in picture",
-            desc2: "Material: Galvanized carbon steel"
+            desc2: "Material: Galvanised Carbon Steel"
         },
         {
             img: "images/product/tool/6.jpg",
             img2: "images/product/tool/6-1.jpg",
             title: "PVC Insulating Flame-Retardant Tape",
-            desc1: "Size: watch belt width: 1.8 cm, Total length:10m ",
+            desc1: "Size: Watch Belt Width: 1.8 cm, Total Length:10m",
             desc2: "Material: PVC"
         },
         {
@@ -1129,7 +1129,7 @@ window.enAllList = {
             img2: "images/product/tool/7-1.jpg",
             title: "Stainless Steel Door Hinge",
             desc1: "Size: As shown in picture",
-            desc2: "Material: Stainless Steel"
+            desc2: "Material: High-Quality SK5 Carbon Steel"
         },
         {
             img: "images/product/tool/8.jpg",
@@ -1205,13 +1205,13 @@ window.enAllList = {
             img: "images/product/tool/18.jpg",
             img2: "images/product/tool/18-1.jpg",
             title: "Paint Roller Brush",
-            desc1: "Size: 80/90/100/150mm,2.5 mm,18 mm, Maximum weight: 12.8kg",
-            desc2: "Material: Polyester +TPR"
+            desc1: "Roller Size: 10 x 3cm  Handle Size: 25 x 8cm",
+            desc2: "Material: Polyester + TPR"
         },
         {
             img: "images/product/tool/19.jpg",
             title: "Vehicle and Marine Battery Connector Cable",
-            desc1: "Size:15/30/50/100cm Metal ring clamp 8mm",
+            desc1: "Size:15/30/50/100cm, Metal Ring Clamp 8mm",
             desc2: "Material: Resin + Copper"
         },
         {

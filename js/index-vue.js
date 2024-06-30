@@ -107,7 +107,8 @@ const app = createApp({
             tabRef,
             productList,
             tabRefWidth,
-            changeLanguage
+            changeLanguage,
+            lang
         };
     }
 });

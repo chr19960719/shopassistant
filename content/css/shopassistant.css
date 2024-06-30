@@ -2299,8 +2299,8 @@ textarea,
   }
   #Top_bar.is-sticky #logo img.logo-sticky {
     display: inline;
-    max-height: 70px;
-    margin-top: -6px;
+    max-height: 132px;
+    margin-top: -36px;
   }
   .logo-sticky-width-auto #Top_bar.is-sticky #logo img.logo-sticky {
     width: auto;

@@ -48,31 +48,31 @@
                     >
                       <img
                         class="logo-main scale-with-grid svg"
-                        src="images/logo3.png"
+                        src="images/new-logo.png"
                         data-height=""
                         alt="shopassistant"
-                        width="169"
+                        width="250"
                       />
                       <img
                         class="logo-sticky scale-with-grid svg"
-                        src="images/logo3.png"
+                        src="images/new-logo.png"
                         data-height=""
                         alt="shopassistant"
-                        width="169"
+                        width="250"
                       />
                       <img
                         class="logo-mobile scale-with-grid svg"
-                        src="images/logo3.png"
+                        src="images/new-logo.png"
                         data-height=""
                         alt="shopassistant"
-                        width="169"
+                        width="250"
                       />
                       <img
                         class="logo-mobile-sticky scale-with-grid svg"
-                        src="images/logo3.png"
+                        src="images/new-logo.png"
                         data-height=""
                         alt="shopassistant"
-                        width="169"
+                        width="250"
                       />
                     </a>
                   </div>
@@ -142,6 +142,7 @@
         </header>
       </div>
 
+      <!-- 首页 -->
       <div id="Content" v-show="currentMenu === 'home'">
         <div class="section no-margin-h no-margin-v full-width wrap-reverse bg-contain">
           <div class="row">
@@ -256,7 +257,7 @@
                   <p lang="home_third_second" type="justify"></p>
                   <hr class="no_line" style="margin: 0 auto 15px auto" />
                   <a class="button button_size_2" href="#" @click="changeMenu('post', 1)">
-                    <span class="button_label" lang="home_third_first"></span>
+                    <span class="button_label" lang="home_fifth_seventh"></span>
                   </a>
                 </div>
               </div>
@@ -274,7 +275,7 @@
                   <p lang="home_third_fifth" type="justify"></p>
                   <hr class="no_line" style="margin: 0 auto 15px auto" />
                   <a class="button button_size_2" href="#" @click="changeMenu('post', 2)">
-                    <span class="button_label" lang="home_third_first"></span>
+                    <span class="button_label" lang="home_fifth_seventh"></span>
                   </a>
                 </div>
               </div>
@@ -295,7 +296,7 @@
                   <p lang="home_third_seventh" type="justify"></p>
                   <hr class="no_line" style="margin: 0 auto 15px auto" />
                   <a class="button button_size_2" href="#" @click="changeMenu('post', 3)">
-                    <span class="button_label" lang="home_third_first"></span>
+                    <span class="button_label" lang="home_fifth_seventh"></span>
                   </a>
                 </div>
               </div>
@@ -313,7 +314,7 @@
                   <p lang="home_third_ninth" type="justify"></p>
                   <hr class="no_line" style="margin: 0 auto 15px auto" />
                   <a class="button button_size_2" href="#" @click="changeMenu('post', 4)">
-                    <span class="button_label" lang="home_third_first"></span>
+                    <span class="button_label" lang="home_fifth_seventh"></span>
                   </a>
                 </div>
               </div>
@@ -334,7 +335,7 @@
                   <p lang="home_third_eleventh" type="justify"></p>
                   <hr class="no_line" style="margin: 0 auto 15px auto" />
                   <a class="button button_size_2" href="#" @click="changeMenu('post', 5)">
-                    <span class="button_label" lang="home_third_first"></span>
+                    <span class="button_label" lang="home_fifth_seventh"></span>
                   </a>
                 </div>
               </div>
@@ -444,9 +445,9 @@
                         "
                       >
                         <span class="counter-inline animate-math">
-                          <span class="number" data-to="99">99</span>
+                          <span class="number" data-to="6000">6000</span>
                         </span>
-                        <span class="shopassistant-plus">%</span>
+                        <span class="shopassistant-plus">+</span>
                       </div>
                     </div>
                   </div>
@@ -666,6 +667,7 @@
           </div>
         </div>
       </div>
+      <!-- 关于我们 -->
       <div
         id="Content about-wrapper"
         class="about-wrapper"
@@ -694,7 +696,7 @@
               </div>
             </div>
             <div class="col-md-6" data-col="one-second">
-              <img src="images/shopassistant-about-pic1.webp" alt="" />
+              <img src="images/about-bg.png" alt="" />
             </div>
           </div>
         </div>
@@ -726,6 +728,7 @@
                   <p lang="about_fourth"></p>
                   <p lang="about_fifth"></p>
                   <p lang="about_sixth"></p>
+                  <p lang="about_sixth_2"></p>
                 </div>
               </div>
             </div>
@@ -768,7 +771,7 @@
                   <div class="text-center" style="background-color: #620836; padding: 70px 30px 55px">
                     <div class="google_font">
                       <span class="counter-inline animate-math">
-                        <span class="number" data-to="57">57</span>
+                        <span class="number" data-to="60">60</span>
                       </span>
                     </div>
                     <hr class="no_line" style="margin: 0 auto 20px auto" />
@@ -779,7 +782,7 @@
                   <div class="text-center" style="background-color: #52062d; padding: 70px 30px 55px">
                     <div class="google_font">
                       <span class="counter-inline animate-math">
-                        <span class="number" data-to="1000">1000</span>
+                        <span class="number" data-to="6500">6500</span>
                         +
                       </span>
                     </div>
@@ -864,6 +867,7 @@
           </div>
         </div>
       </div>
+      <!-- 企业文化 -->
       <div id="Content" class="culture-wrapper" lang-style="culture" v-show="currentMenu === 'culture'">
         <div
           class="section no-margin-h no-margin-v full-width wrap-reverse"
@@ -1076,6 +1080,7 @@
           </div>
         </div>
       </div>
+      <!-- 产品 -->
       <div id="Content" class="product-wrapper" lang-style="product" v-show="currentMenu === 'product'">
         <div
           class="section no-margin-h no-margin-v full-width bg-contain"
@@ -1287,7 +1292,8 @@
           </div>
         </div>
       </div>
-      <div id="Content" v-show="currentMenu === 'post'">
+      <!-- 产品详情 -->
+      <div id="Content" v-show="currentMenu === 'post'" style="min-width: 1400px">
         <div
           class="section mcb-section bg-cover"
           style="
@@ -1334,6 +1340,9 @@
                   <img class="product-icon" src="images/tool.jpg" />
                   <span lang="home_third_tenth"></span>
                 </div>
+              </div>
+              <div class="col-12" style="text-align: center">
+                <h4 lang="home_fifth_seventh"></h4>
               </div>
               <div class="col-12">
                 <div class="row blog_s">
@@ -1391,10 +1400,32 @@
                   </div>
                 </div>
               </div>
+              <div class="post-bottom">
+                <div style="margin-bottom: 32px">
+                  <img
+                    class="scale-with-grid"
+                    src="images/shopassistant-sep2.png"
+                    alt="shopassistant-sep2"
+                    width="26"
+                    height="8"
+                  />
+                </div>
+                <div>
+                  <p lang="post_first"></p>
+                  <p lang="post_second"></p>
+                  <a
+                    href="#"
+                    class="home-title-button"
+                    lang="home_index_button"
+                    @click="changeMenu('contact')"
+                  ></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- 工厂 -->
       <div id="Content" class="factory-wrapper" lang-style="factory" v-show="currentMenu === 'factory'">
         <div
           class="section no-margin-h no-margin-v full-width wrap-reverse bg-contain"
@@ -1429,25 +1460,32 @@
                     <div class="swiper mySwiper factory-slider">
                       <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                          <img src="images/factory/1.jpg" />
+                          <img src="images/factory/1.jpg" v-if="lang === 'CN'" />
+                          <img src="images/en-factory/1.jpg" v-else />
                         </div>
                         <div class="swiper-slide">
-                          <img src="images/factory/2.jpg" />
+                          <img src="images/factory/2.jpg" v-if="lang === 'CN'" />
+                          <img src="images/en-factory/2.jpg" v-else />
                         </div>
                         <div class="swiper-slide">
-                          <img src="images/factory/3.jpg" />
+                          <img src="images/factory/3.jpg" v-if="lang === 'CN'" />
+                          <img src="images/en-factory/3.jpg" v-else />
                         </div>
                         <div class="swiper-slide">
-                          <img src="images/factory/4.jpg" />
+                          <img src="images/factory/4.jpg" v-if="lang === 'CN'" />
+                          <img src="images/en-factory/4.jpg" v-else />
                         </div>
                         <div class="swiper-slide">
-                          <img src="images/factory/5.jpg" />
+                          <img src="images/factory/5.jpg" v-if="lang === 'CN'" />
+                          <img src="images/en-factory/5.jpg" v-else />
                         </div>
                         <div class="swiper-slide">
-                          <img src="images/factory/17.jpg" />
+                          <img src="images/factory/17.jpg" v-if="lang === 'CN'" />
+                          <img src="images/en-factory/17.jpg" v-else />
                         </div>
                         <div class="swiper-slide">
-                          <img src="images/factory/20.jpg" />
+                          <img src="images/factory/20.jpg" v-if="lang === 'CN'" />
+                          <img src="images/en-factory/20.jpg" v-else />
                         </div>
                       </div>
                     </div>
@@ -1518,25 +1556,32 @@
                     <div class="swiper mySwiper factory-slider">
                       <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                          <img src="images/factory/6.jpg" />
+                          <img src="images/factory/6.jpg" v-if="lang === 'CN'" />
+                          <img src="images/en-factory/6.jpg" v-else />
                         </div>
                         <div class="swiper-slide">
-                          <img src="images/factory/7.jpg" />
+                          <img src="images/factory/7.jpg" v-if="lang === 'CN'" />
+                          <img src="images/en-factory/7.jpg" v-else />
                         </div>
                         <div class="swiper-slide">
-                          <img src="images/factory/8.jpg" />
+                          <img src="images/factory/8.jpg" v-if="lang === 'CN'" />
+                          <img src="images/en-factory/8.jpg" v-else />
                         </div>
                         <div class="swiper-slide">
-                          <img src="images/factory/9.jpg" />
+                          <img src="images/factory/9.jpg" v-if="lang === 'CN'" />
+                          <img src="images/en-factory/9.jpg" v-else />
                         </div>
                         <div class="swiper-slide">
-                          <img src="images/factory/10.jpg" />
+                          <img src="images/factory/10.jpg" v-if="lang === 'CN'" />
+                          <img src="images/en-factory/10.jpg" v-else />
                         </div>
                         <div class="swiper-slide">
-                          <img src="images/factory/11.jpg" />
+                          <img src="images/factory/11.jpg" v-if="lang === 'CN'" />
+                          <img src="images/en-factory/11.jpg" v-else />
                         </div>
                         <div class="swiper-slide">
-                          <img src="images/factory/12.jpg" />
+                          <img src="images/factory/12.jpg" v-if="lang === 'CN'" />
+                          <img src="images/en-factory/12.jpg" v-else />
                         </div>
                       </div>
                     </div>
@@ -1564,22 +1609,28 @@
                     <div class="swiper mySwiper factory-slider">
                       <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                          <img src="images/factory/13.jpg" />
+                          <img src="images/factory/13.jpg" v-if="lang === 'CN'" />
+                          <img src="images/en-factory/13.jpg" v-else />
                         </div>
                         <div class="swiper-slide">
-                          <img src="images/factory/14.jpg" />
+                          <img src="images/factory/14.jpg" v-if="lang === 'CN'" />
+                          <img src="images/en-factory/14.jpg" v-else />
                         </div>
                         <div class="swiper-slide">
-                          <img src="images/factory/15.jpg" />
+                          <img src="images/factory/15.jpg" v-if="lang === 'CN'" />
+                          <img src="images/en-factory/15.jpg" v-else />
                         </div>
                         <div class="swiper-slide">
-                          <img src="images/factory/16.jpg" />
+                          <img src="images/factory/16.jpg" v-if="lang === 'CN'" />
+                          <img src="images/en-factory/16.jpg" v-else />
                         </div>
                         <div class="swiper-slide">
-                          <img src="images/factory/18.jpg" />
+                          <img src="images/factory/18.jpg" v-if="lang === 'CN'" />
+                          <img src="images/en-factory/18.jpg" v-else />
                         </div>
                         <div class="swiper-slide">
-                          <img src="images/factory/19.jpg" />
+                          <img src="images/factory/19.jpg" v-if="lang === 'CN'" />
+                          <img src="images/en-factory/19.jpg" v-else />
                         </div>
                       </div>
                     </div>
@@ -1613,6 +1664,7 @@
           </div>
         </div>
       </div>
+      <!-- 员工风采 -->
       <div id="Content" class="team-wrapper" lang-style="team" v-show="currentMenu === 'team'">
         <div
           class="section no-margin-h no-margin-v full-width wrap-reverse bg-contain"
@@ -1862,6 +1914,7 @@
           </div>
         </div>
       </div>
+      <!-- 联系我们 -->
       <div id="Content" class="contact-wrapper" lang-style="contact" v-show="currentMenu === 'contact'">
         <div
           class="section no-margin-h no-margin-v full-width wrap-reverse bg-contain"
@@ -1874,7 +1927,7 @@
             <div class="col-md-5 contact" data-col="one-third">
               <div class="mobile_align_center">
                 <hr class="no_line" style="margin: 0 auto 10px auto" />
-                <h1 class="line-hight-168">
+                <h1>
                   <span lang="contact_first" class="contact-title"></span>
                   <p class="themecolor" lang="contact_second"></p>
                 </h1>
@@ -1920,13 +1973,13 @@
                       </h2>
                       <img class="scale-with-grid cutting-line" src="images/shopassistant-sep6.svg" />
                       <hr class="no_line" style="margin: 0 auto 10px auto" />
-                      <p class="bottom-text">
+                      <div class="bottom-text">
                         <span style="color: #12263a">
                           <p lang="msg_third"></p>
                           <p lang="msg_fourth"></p>
                           <p lang="msg_fifth"></p>
                         </span>
-                      </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -1965,7 +2018,7 @@
             </div>
           </div>
         </div>
-        <div class="container">
+        <div class="container footer_wrapper">
           <div class="row">
             <div class="col-12">
               <hr class="no_line" style="margin: 0 auto 90px auto" />
@@ -1974,10 +2027,10 @@
               <figure class="wp-block-image size-full">
                 <img src="images/black-logo.png" class="wp-image-206" />
               </figure>
-              <p lang="footer_first"></p>
+              <span lang="footer_first"></span>
             </div>
             <div class="col-md-3">
-              <h6 lang="footer_second"></h6>
+              <h4 lang="footer_second"></h4>
               <ul>
                 <li @click="changeMenu('home')">
                   <a href="#"><span lang="menu_first"></span></a>
@@ -2000,16 +2053,6 @@
                 <li @click="changeMenu('contact')">
                   <a href="#"><span lang="menu_sixth"></span></a>
                 </li>
-              </ul>
-            </div>
-            <div class="col-md-3">
-              <h6>Links</h6>
-              <ul>
-                <li><a href="#">Consectetuer</a></li>
-                <li><a href="#">Aenean</a></li>
-                <li><a href="#">Maecenas</a></li>
-                <li><a href="#">Ullamcorper</a></li>
-                <li><a href="#">Pellentesque</a></li>
               </ul>
             </div>
             <div class="col-12">
