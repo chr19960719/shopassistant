@@ -1042,7 +1042,7 @@ window.enAllList = {
         {
             img: "images/product/pet/11.jpg",
             title: "Adjustable Pet Striped Neck Tie",
-            desc1: "Tie Circumference: 32 cm, Adjustable size: 24-30 cm, Polyester Cotton",
+            desc1: "Tie Circumference: 32 cm,<br/>Adjustable Size: 24-30 cm",
             desc2: "Material: Polyester Cotton"
         },
         {
